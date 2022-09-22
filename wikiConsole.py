@@ -1,6 +1,7 @@
 import categoryMembers
 import categoriesFromArticle
 import copyVioCheck
+import valgresultat
 
 def print_help():
     help = "ac:\tprints categories from an article\n"
@@ -8,6 +9,7 @@ def print_help():
     help = help + "cv:\tchecks articles for possible copyright violations (via copyvios.toolforge.org) -> can take forever\n"
     help = help + "help:\toverview over commands\n"
     help = help + "sc:\tprints subcategories from a category and its subcategories"
+    help = help + "valg:\tprints the table with the election results; needs path to csv file (https://valgresultat.no/?type=st -> Eksport av valgresultater -> Partifordeling (Landsnivå)"
 
     print (help)
 
@@ -33,3 +35,9 @@ while (True):
     elif command == "subcats" or command == "sc":
         cat = input("Name der Kategorie: ")
         categoryMembers.print_subcats_cat(cat)
+
+    elif command == "valg":
+        year = input("Jahr: ")
+        path = input("Pfad zur CSV-Datei: ")
+
+        valgresultat.print_election_results(year, path)
