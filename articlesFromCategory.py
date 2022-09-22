@@ -1,23 +1,12 @@
-import requests
+import requestHandler
 
 articles = []
 
 def convert_cat_name(cat_name):
-    cat_name = cat_name.replace(" ", "_")
-
     if "Kategorie:" not in cat_name:
-        cat_name = "Kategorie:" + cat_name
+        return "Kategorie:" + cat_name
 
     return cat_name
-
-#get json code for the category members
-def get_code(cat):
-    cat = convert_cat_name(cat)
-    URL = ("https://de.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=" + str(cat) +"&cmlimit=max&cmprop=type|title&format=json")
-
-    response = requests.get(URL, timeout=0.5)
-
-    return response.json()
 
 #puts the articles of the category into a list and if there are subcategories those are checked, too
 def create_article_list(code):
@@ -34,7 +23,10 @@ def create_article_list(code):
 
 #get the json code and then writes them into list
 def check_cat(cat):
-    response = get_code(cat)
+    cat = convert_cat_name(cat)
+    url = "https://de.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=" + str(cat) +"&cmlimit=max&cmprop=type|title&format=json"
+
+    response = requestHandler.get_json_code(url)
     create_article_list(response)
 
 #returns a list of articles from a cat
