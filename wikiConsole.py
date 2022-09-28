@@ -6,6 +6,7 @@ import editCount
 import fylke
 import municipality
 import kartverketAPI
+import municipalityArticle
 
 def print_help():
     help = "ac:\tprints categories from an article\n"
@@ -13,7 +14,8 @@ def print_help():
     help = help + "cv:\tchecks articles for possible copyright violations (via copyvios.toolforge.org) -> can take forever\n"
     help = help + "ec:\tprints the edit count of a user\n"
     help = help + "help:\toverview over commands\n"
-    help = help + "m -name:\prints name of municipality with a certain municipality number\n"
+    help = help + "m:\tprints the Wikipedia article for a municipality\n"
+    help = help + "m -name:\tprints name of municipality with a certain municipality number\n"
     help = help + "sc:\tprints subcategories from a category and its subcategories"
     help = help + "valg:\tprints the table with the election results; needs path to csv file (https://valgresultat.no/?type=st -> Eksport av valgresultater -> Partifordeling (Landsnivå)"
 
@@ -41,6 +43,11 @@ while (True):
 
     elif command == "help" or command == "h":
         print_help()
+
+    if command == "m" or command == "muni":
+        number = input("Kommunennummer: ")
+        admin_centre = input("Verwaltungszentrum: ")
+        print(municipalityArticle.write_article(number, admin_centre))
 
     elif command == "m -name" or command == "muni -name":
         number = input("Kommunennummer: ")

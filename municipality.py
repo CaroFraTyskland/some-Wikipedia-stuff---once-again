@@ -7,13 +7,16 @@ class Municipality():
         self.fylkeNummer = number[:2]
         self.fylke = fylke.get_fylke_by_number(self.fylkeNummer)
 
-        if (name == ""):
+        if (wikipedia_article == ""):
             self.wikipedia_article = name
         else:
             self.wikipedia_article = name + " (" + wikipedia_article + ")"
 
-    def get_fylke(self):
-        return self.fylke
+    def get_wiki_link(self):
+        if self.name == self.wikipedia_article:
+            return "[[" + self.wikipedia_article + "]]"
+        else:
+            return "[[" + self.wikipedia_article + "|" + self.name + "]]"
 
 municipalities = []
 
