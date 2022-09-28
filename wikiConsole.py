@@ -3,6 +3,9 @@ import categoriesFromArticle
 import copyVioCheck
 import valgresultat
 import editCount
+import fylke
+import municipality
+import kartverketAPI
 
 def print_help():
     help = "ac:\tprints categories from an article\n"
@@ -10,6 +13,7 @@ def print_help():
     help = help + "cv:\tchecks articles for possible copyright violations (via copyvios.toolforge.org) -> can take forever\n"
     help = help + "ec:\tprints the edit count of a user\n"
     help = help + "help:\toverview over commands\n"
+    help = help + "m -name:\prints name of municipality with a certain municipality number\n"
     help = help + "sc:\tprints subcategories from a category and its subcategories"
     help = help + "valg:\tprints the table with the election results; needs path to csv file (https://valgresultat.no/?type=st -> Eksport av valgresultater -> Partifordeling (Landsnivå)"
 
@@ -37,6 +41,20 @@ while (True):
 
     elif command == "help" or command == "h":
         print_help()
+
+    elif command == "m -name" or command == "muni -name":
+        number = input("Kommunennummer: ")
+        try:
+            print (municipality.get_municipality_by_number(number).name)
+        except:
+            print ("keine gültige Nummer")
+
+    elif command == "m -nr" or command == "muni -nr":
+        name = input("Name der Kommune: ")
+        try:
+            print (municipality.get_municipality_by_name(name).number)
+        except:
+            print ("keine gültiger Name")
 
     elif command == "subcats" or command == "sc":
         cat = input("Name der Kategorie: ")
