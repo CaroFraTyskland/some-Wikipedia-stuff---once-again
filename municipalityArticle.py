@@ -1,6 +1,6 @@
-from asyncore import write
 import kartverketAPI
 import municipality
+import reference
 
 class MunicipalityArticle:
 
@@ -31,11 +31,17 @@ class MunicipalityArticle:
     def write_geography(self):
         text = "== Geografie ==\n"
         text += self.write_neighbours()
+        text += reference.get_source_norgeskart(self.name + " kommune")
 
         return text
 
+    def write_commuters(self):
+        return "Im Jahr 2021 arbeiteten von rund x Arbeitstätigen etwa x in " + self.name + " selbst, ." + reference.get_source_ssb_commuter()
+
+    def write_infrastructor_economy(self):
+        return "== Wirtschaft und Infrastruktur ==\n=== Verkehr ===\n<ref name=\"norgeskart\" />\n\n=== Wirtschaft ===\n" + reference.get_soure_snl(self.name) + " " + self.write_commuters()
 
 def write_article(muni_nr, admin_centre):
     article = MunicipalityArticle(muni_nr, admin_centre)
 
-    return article.write_geography()
+    return article.write_geography() + "\n\n" + article.write_infrastructor_economy()
