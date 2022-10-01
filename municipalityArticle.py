@@ -1,6 +1,8 @@
 import kartverketAPI
 import municipality
 import reference
+import famousPeople
+import population_over_time
 
 class MunicipalityArticle:
 
@@ -8,10 +10,19 @@ class MunicipalityArticle:
         self.muni_nr = number
         self.admin_centre = centre
 
-        code = kartverketAPI.get_code_muni_basic(self.muni_nr)
-        self.name = kartverketAPI.get_municipality_name(code)
-        self.fylke = kartverketAPI.get_fylke(code)
-    
+        self.muni = municipality.get_municipality_by_number(self.muni_nr)
+        self.fylke = self.muni.get_fylke()
+
+        self.code = kartverketAPI.get_code_muni_basic(self.muni_nr)
+        self.name = kartverketAPI.get_municipality_name(self.code)
+
+    def write_first_paragraph(self):
+        text = "'''" + self.name + "'''" + " ist eine [[Kommune (Norwegen)|]] im [[Norwegen|norwegischen]] [[Fylke]] " + self.fylke.get_wiki_link() + ". Die Kommune hat {{EWZ|NO|" + self.muni_nr + "}} Einwohner (Stand: {{EWD|NO|" + self.muni_nr + "}}). Verwaltungssitz ist "
+
+        if (self.admin_centre == self.name):
+            return text + "der gleichnamige Ort " + self.admin_centre + "."
+        else:
+            return text + "die Ortschaft [[" + self.admin_centre + "]]."
 
     def write_neighbours(self):
         neighbours = kartverketAPI.get_neighbour_munis(self.muni_nr)
@@ -27,11 +38,81 @@ class MunicipalityArticle:
                 text = text + " und " + municipality.get_municipality_by_number(neighbours[i]).get_wiki_link()
 
         return text + "."
+    
+    def write_famous_people(self):
+        return "== Persönlichkeiten ==" + famousPeople.get_list(self.name)
 
     def write_geography(self):
         text = "== Geografie ==\n"
         text += self.write_neighbours()
         text += reference.get_source_norgeskart(self.name + " kommune")
+
+        return text
+
+    def write_tettsteder(self):
+        return ""
+    
+    def write_citizen_name(self):
+        citizenName = self.muni.get_citizen_name()
+
+        if (citizenName == ""):
+            return ""
+
+        citizenName = citizenName.replace(", ", "'' oder ''")
+
+        return "Die Einwohner der Gemeinde werden ''" + citizenName + "'' genannt." + reference.get_source_sprakradet()
+
+    def write_language(self):
+        language = self.muni.get_language()
+
+        fylke_name = self.fylke.name
+        fylke_nr = self.muni.fylke_nr
+
+        if (language == "bokmål"):
+            if fylke_nr in ("34", "30", "18", "54"): #Innlandet, Viken, Nordland, ToF
+                text = "Offizielle Schriftsprache ist wie in vielen Kommunen in " + fylke_name + " [[Bokmål]], also die weiter verbreitete der beiden norwegischen Sprachformen."
+            elif fylke_nr in ("38", "11"): #VoT, Rogaland
+                text = "Offizielle Schriftsprache ist wie in nur wenigen Kommunen in " + fylke_name + " [[Bokmål]], also die weiter verbreitete der beiden norwegischen Sprachformen."
+            elif fylke_nr in ("42", "50"):
+                text = "Offizielle Schriftsprache ist wie in einigen weiteren Kommunen in " + fylke_name + " [[Bokmål]], also die weiter verbreitete der beiden norwegischen Sprachformen."
+
+        elif (language == "nynorsk"):
+            if fylke_nr in ("34", "30"): #Innlandet, Viken
+                text = "Offizielle Schriftsprache ist wie in nur wenigen Kommunen in " + fylke_name + " [[Nynorsk]], also die weniger weit verbreitete der beiden norwegischen Sprachformen."
+            elif fylke_nr in ("11", "46", "15"): #Rogaland, Vestland, Møre
+                text = "Offizielle Schriftsprache ist wie in vielen Kommunen in " + fylke_name + " [[Nynorsk]], also die weniger weit verbreitete der beiden norwegischen Sprachformen."
+            elif fylke_nr in ("42", "38"): #Agder, VoT
+                text = "Offizielle Schriftsprache ist wie in einigen weiteren Kommunen in " + fylke_name + " [[Nynorsk]], also die weniger weit verbreitete der beiden norwegischen Sprachformen."
+
+        elif (language == "nøytral"):
+            if fylke_nr in ("34", "18", "54", "38", "42", "11", "50"): #Innlandet, Nordland, ToF, VoT, Agder, Rogaland, Trøndelag
+                text = self.name + " hat wie viele andere Kommunen der Provinz " + fylke_name + " weder [[Nynorsk]] noch [[Bokmål]] als offizielle Sprachform, sondern ist in dieser Frage neutral."
+            elif fylke_nr in ("30", "15"): #Viken, Møre
+                text = self.name + " hat wie einige weitere Kommunen der Provinz " + fylke_name + " weder [[Nynorsk]] noch [[Bokmål]] als offizielle Sprachform, sondern ist in dieser Frage neutral."
+            elif fylke_nr == "46": #Vestland
+                text = "Im Gegensatz zu den meisten anderen Kommunen der Provinz " + fylke_name + " hat " + self.name + " weder [[Nynorsk]] noch [[Bokmål]] als offizielle Sprachform, sondern ist in dieser Frage neutral."
+            elif fylke_nr == "03":
+                text = self.name + " hat weder [[Nynorsk]] noch [[Bokmål]] als offizielle Sprachform, sondern ist in dieser Frage neutral."
+
+        text += reference.get_source_language()
+
+        if kartverketAPI.is_samisk_forvaltningsomrade(self.code):
+            text += " Da " + self.name + " Teil des samischen Verwaltungsgebiets ist, ist die norwegische Sprache dem [[Samische Sprachen|Samischen]] gleichgestellt. Die Einwohner haben dadurch unter anderem einen Anspruch darauf, die Kommunikation mit öffentlichen Organen in einer samischen Sprache laufen zu lassen." + reference.get_source_reg_sami()
+
+        return text
+
+    def write_population(self):
+        text = "== Einwohner ==\n<ref name=\"snl\" /> " + self.write_tettsteder() + "\n\n"
+
+        citizenNameText = self.write_citizen_name()
+        
+        if (citizenNameText != ""):
+            text += citizenNameText + " "
+
+        text += self.write_language()
+        text += "\n\n"
+
+        text += population_over_time.get_population_table(self.muni_nr)
 
         return text
 
@@ -41,7 +122,15 @@ class MunicipalityArticle:
     def write_infrastructor_economy(self):
         return "== Wirtschaft und Infrastruktur ==\n=== Verkehr ===\n<ref name=\"norgeskart\" />\n\n=== Wirtschaft ===\n" + reference.get_soure_snl(self.name) + " " + self.write_commuters()
 
+    def write_name(self):
+        return self.name + " wurde im Jahr ... als ''...'' erwähnt. Der Name setzt sich aus den beiden Bestandteilen „...“ und „...“ zusammen, erster leitet sich von ... ab, „...“ steht hingegen für „...“." +  reference.get_source_stadnamn(self.name)
+
+    def write_name_coat_of_arms(self):
+        return "== Name und Wappen ==\nDas seit x offizielle Wappen der Kommune zeigt ... " + self.write_name()
+
+    def write_article(self):
+        return self.write_first_paragraph() + "\n" + self.write_geography() + "\n\n" + self.write_population() + "\n\n" + self.write_infrastructor_economy() + "\n\n" + self.write_name_coat_of_arms() + "\n\n" + self.write_famous_people()
+
 def write_article(muni_nr, admin_centre):
     article = MunicipalityArticle(muni_nr, admin_centre)
-
-    return article.write_geography() + "\n\n" + article.write_infrastructor_economy()
+    return article.write_article()    

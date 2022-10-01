@@ -21,6 +21,19 @@ def print_help():
 
     print (help)
 
+#asks user for a municipality number until he enters a valid one
+def get_muni_number():
+    accepted = False
+    while (accepted == False):
+        number = input("Kommunennummer: ")
+        
+        if (municipality.get_municipality_by_number(number) != ""):
+            accepted = True
+        else:         
+            print ("keine gültige Nummer")
+    
+    return number
+
 while (True):
     command = input(">> ")
     command = command.lower()
@@ -45,16 +58,13 @@ while (True):
         print_help()
 
     if command == "m" or command == "muni":
-        number = input("Kommunennummer: ")
+        number = get_muni_number()
         admin_centre = input("Verwaltungszentrum: ")
         print(municipalityArticle.write_article(number, admin_centre))
 
     elif command == "m -name" or command == "muni -name":
-        number = input("Kommunennummer: ")
-        try:
-            print (municipality.get_municipality_by_number(number).name)
-        except:
-            print ("keine gültige Nummer")
+        number = get_muni_number()
+        print (municipality.get_municipality_by_number(number).name)
 
     elif command == "m -nr" or command == "muni -nr":
         name = input("Name der Kommune: ")

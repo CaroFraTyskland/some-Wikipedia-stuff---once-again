@@ -1,22 +1,61 @@
 import fylke
+import csv
 
 class Municipality():
     def __init__(self, name, number, wikipedia_article = ""):
         self.name = name
         self.number = number
-        self.fylkeNummer = number[:2]
-        self.fylke = fylke.get_fylke_by_number(self.fylkeNummer)
+        self.fylke_nr = number[:2]
 
         if (wikipedia_article == ""):
             self.wikipedia_article = name
         else:
             self.wikipedia_article = name + " (" + wikipedia_article + ")"
 
+    def get_fylke(self):
+        return fylke.get_fylke_by_number(self.fylke_nr)
+        
+    def get_citizen_name(self):
+        populationName = ""
+
+        with open('namn.csv') as csvfile:
+            reader = csv.reader(csvfile, delimiter=';')
+            for row in reader:
+                if row[1] == self.number:
+                    if (populationName == ""):
+                        populationName = row[0]
+                    else:
+                        populationName = populationName + "'' oder ''" + row[0]
+        
+        return populationName
+
+    def get_language(self):
+        with open('language.csv') as csvfile:
+            reader = csv.reader(csvfile, delimiter=';')
+            for row in reader:
+                if row[0] == self.number:
+                    return row[2]
+
+        return ""
+            
+
     def get_wiki_link(self):
         if self.name == self.wikipedia_article:
             return "[[" + self.wikipedia_article + "]]"
         else:
             return "[[" + self.wikipedia_article + "|" + self.name + "]]"
+    
+    def get_language(self):
+        with open('language.csv') as csvfile:
+            reader = csv.reader(csvfile, delimiter=';')
+
+            for row in reader:
+                if row[0] == self.number:
+                    form = row[2]
+
+                    return form
+        
+        return ""
 
 municipalities = []
 
