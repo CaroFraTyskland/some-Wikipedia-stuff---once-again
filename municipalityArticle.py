@@ -3,7 +3,8 @@ import municipality
 import reference
 import famousPeople
 import population_over_time
-
+import muniArea
+import fylke
 class MunicipalityArticle:
 
     def __init__ (self, number, centre):
@@ -39,13 +40,50 @@ class MunicipalityArticle:
 
         return text + "."
     
+    def write_highest_mountain(self):
+        mountain = self.muni.get_highest_mountain()
+
+        mountain_name = mountain[0]
+        height = mountain[1].replace(",", ".")
+
+        if "," in mountain_name:
+            mountain_name = mountain_name.replace(",", " (samisch '''") + "''')"
+
+        return "Die Erhebung " + mountain_name + " stellt mit einer Höhe von {{Höhe|" + height + "|NO}} den höchsten Punkt der Kommune " + self.name + " dar." + reference.get_source_highest_mountain(); 
+        
+    
     def write_famous_people(self):
         return "== Persönlichkeiten ==" + famousPeople.get_list(self.name)
 
     def write_geography(self):
-        text = "== Geografie ==\n"
-        text += self.write_neighbours()
-        text += reference.get_source_norgeskart(self.name + " kommune")
+        text = "== Geografie ==\n" +  self.write_neighbours() + reference.get_source_norgeskart(self.name + " kommune")
+
+        waterArea = str(muniArea.get_water_area(self.muni_nr)).replace(".", ",")
+
+        text += " Die Gesamtfläche der Kommune beträgt {{FL|NO|" + self.muni_nr + "|2}}&nbsp;km², wobei [[Binnengewässer]] zusammen " + waterArea + "&nbsp;km² ausmachen."
+        text += reference.get_source_ssb_area_type()
+
+        text = text + "\n\n" + self.write_highest_mountain()
+
+        return text
+
+    def write_new_fylke(self):
+        text = "Bis zum "
+
+        fylke_name = self.fylke.name
+
+        if fylke_name == "Trøndelag":
+            text += "31. Dezember 2017 gehörte " + self.name + " der damaligen Provinz [[-Trøndelag]] an. Sie ging im Zuge der [[Regionalreform in Norwegen]] in die zum 1. Januar 2018 neu geschaffene Provinz " + fylke_name + " über."
+        else:
+            text += "31. Dezember 2019 gehörte " + self.name + " der damaligen Provinz [[]] an. Sie ging im Zuge der [[Regionalreform in Norwegen]] in die zum 1. Januar 2020 neu geschaffene Provinz " + fylke_name + " über."
+
+        return text + reference.get_source_reg_reform_2020()
+
+    def write_history(self):
+        text = "== Geschichte ==\n" + reference.get_source_ssb_muni_history()
+
+        if fylke.is_new(self.fylke.number):
+            text += "\n" + self.write_new_fylke()
 
         return text
 
@@ -128,8 +166,11 @@ class MunicipalityArticle:
     def write_name_coat_of_arms(self):
         return "== Name und Wappen ==\nDas seit x offizielle Wappen der Kommune zeigt ... " + self.write_name()
 
+    def write_weblinks(self):
+        return "== Weblinks ==\n{{Commonscat}}\n" + reference.get_snl_weblink(self.name) + "\n" + reference.get_ssb_muni_weblink(self.name)
+
     def write_article(self):
-        return self.write_first_paragraph() + "\n" + self.write_geography() + "\n\n" + self.write_population() + "\n\n" + self.write_infrastructor_economy() + "\n\n" + self.write_name_coat_of_arms() + "\n\n" + self.write_famous_people()
+        return self.write_first_paragraph() + "\n\n" + self.write_geography() + "\n\n" + self.write_population() + "\n\n" + self.write_history() + "\n\n" + self.write_infrastructor_economy() + "\n\n" + self.write_name_coat_of_arms() + "\n\n" + self.write_famous_people() + "\n\n" + self.write_weblinks() + "\n\n"
 
 def write_article(muni_nr, admin_centre):
     article = MunicipalityArticle(muni_nr, admin_centre)
