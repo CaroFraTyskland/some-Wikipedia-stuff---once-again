@@ -6,6 +6,7 @@ import editCount
 import fylke
 import municipality
 import municipalityArticle
+import population_over_time
 
 def print_help():
     help = "ac:\tprints categories from an article\n"
@@ -18,8 +19,9 @@ def print_help():
     help = help + "m:\tprints the Wikipedia article for a municipality\n"
     help = help + "m -name:\tprints name of municipality with a certain municipality number\n"
     help = help + "m -nr:\tprints a municipality number of a municipality with a certain name\n"
-    help = help + "q:\quit"
-    help = help + "sc:\tprints subcategories from a category and its subcategories"
+    help = help + "pop -t:\tprints the table with the population development of a municipality\n"
+    help = help + "q:\tquit\n"
+    help = help + "sc:\tprints subcategories from a category and its subcategories\n"
     help = help + "valg:\tprints the table with the election results; needs path to csv file (https://valgresultat.no/?type=st -> Eksport av valgresultater -> Partifordeling (Landsnivå)"
 
     print (help)
@@ -102,6 +104,10 @@ while (not quit):
             print (municipality.get_municipality_by_name(name).number)
         except:
             print ("keine gültiger Name")
+
+    elif command == "pop -t":
+        number = get_muni_number()
+        print(population_over_time.get_population_table(number))
 
     elif command == "q" or command == "quit":
         print ("## quit ##")
