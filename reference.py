@@ -13,7 +13,7 @@ def get_source_reg_reform_2020():
     return "<ref>{{Internetquelle |url=https://www.regjeringen.no/no/tema/kommuner-og-regioner/kommunestruktur/nyekommuneogfylkesnummer/id2629203/ |titel=Nye kommune- og fylkesnummer fra 2020 |werk=regjeringen.no |sprache=no |datum=2020-01-08 |abruf=" + get_todays_date() + "}}</ref>"
 
 def get_source_stadnamn(place_name):
-    return "<ref>{{Internetquelle |url= |titel=" + place_name + " |werk=Norsk stadnamnleksikon |abruf=" + get_todays_date() + " |sprache=no}}</ref>"
+    return "<ref>{{Internetquelle |url= |titel=" + place_name + " |werk=Norsk stadnamnleksikon |sprache=nn |abruf=" + get_todays_date() + "}}</ref>"
 
 def get_source_sprakradet():
     return "<ref>{{Internetquelle |url=https://www.sprakradet.no/sprakhjelp/Skriverad/navn-pa-steder-og-personer/Innbyggjarnamn/ |titel=Innbyggjarnamn |werk=Språkrådet |sprache=nn |abruf=" + get_todays_date() + "}}</ref>"

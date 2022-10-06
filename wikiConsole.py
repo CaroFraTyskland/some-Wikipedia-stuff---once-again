@@ -89,6 +89,7 @@ while (not quit):
     elif command == "m" or command == "muni":
         number = get_muni_number()
         admin_centre = input("Verwaltungszentrum: ")
+        print("\n")
         print(municipalityArticle.write_article(number, admin_centre))
 
     elif command == "m -name" or command == "muni -name":

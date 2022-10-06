@@ -1,4 +1,6 @@
+import csv
 import requests
+from contextlib import closing
 
 url = 'https://data.ssb.no/api/v0/no/table/09280/'
 myobj = {
@@ -392,10 +394,23 @@ myobj = {
   }
 }
 
-def get_water_area(muni_nr):
+def get_water_area2(muni_nr):
     x = requests.post(url, json = myobj)
     x = x.json()
 
     nr = x["dimension"]["Region"]["category"]["index"]["K-" + str(muni_nr)]
 
     return x["value"][nr*2 + 1]
+
+def get_water_area(muni_nr): 
+    url = "https://data.ssb.no/api/v0/dataset/85430.csv?lang=en"
+
+    with closing(requests.get(url, stream=True)) as r:
+        f = (line.decode('latin-1') for line in r.iter_lines())
+        reader = csv.reader(f, delimiter=',', quotechar='"')
+
+        for row in reader:
+            if str(muni_nr) in row[0] and "Freshwater" in row[1]:
+                return row[4]
+
+    return ""

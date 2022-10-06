@@ -5,6 +5,7 @@ import famousPeople
 import population_over_time
 import muniArea
 import fylke
+import tettsted
 class MunicipalityArticle:
 
     def __init__ (self, number, centre):
@@ -73,9 +74,9 @@ class MunicipalityArticle:
         fylke_name = self.fylke.name
 
         if fylke_name == "Trøndelag":
-            text += "31. Dezember 2017 gehörte " + self.name + " der damaligen Provinz [[-Trøndelag]] an. Sie ging im Zuge der [[Regionalreform in Norwegen]] in die zum 1. Januar 2018 neu geschaffene Provinz " + fylke_name + " über."
+            text += "31. Dezember 2017 gehörte " + self.name + " dem damaligen Fylke [[-Trøndelag]] an. Dieses ging im Zuge der [[Regionalreform in Norwegen]] in das zum 1. Januar 2018 neu geschaffene Fylke " + fylke_name + " über."
         else:
-            text += "31. Dezember 2019 gehörte " + self.name + " der damaligen Provinz [[]] an. Sie ging im Zuge der [[Regionalreform in Norwegen]] in die zum 1. Januar 2020 neu geschaffene Provinz " + fylke_name + " über."
+            text += "31. Dezember 2019 gehörte " + self.name + " dem damaligen Fylke [[]] an. Dieses ging im Zuge der [[Regionalreform in Norwegen]] in das zum 1. Januar 2020 neu geschaffene Fylke " + fylke_name + " über."
 
         return text + reference.get_source_reg_reform_2020()
 
@@ -83,12 +84,63 @@ class MunicipalityArticle:
         text = "== Geschichte ==\n" + reference.get_source_ssb_muni_history()
 
         if fylke.is_new(self.fylke.number):
-            text += "\n" + self.write_new_fylke()
+            text += " " + self.write_new_fylke()
 
         return text
 
     def write_tettsteder(self):
-        return ""
+        list = tettsted.get_tettsted_list_muni(self.muni_nr)
+
+        if (len(list) == 0):
+            return "In der gesamten Gemeinde liegen keine [[Tettsted]]er, also keine Ansiedlungen, die für statistische Zwecke als eine Ortschaft gewertet werden.<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
+        
+
+        if (len(list) == 1):
+            row = list[0]
+
+            text = row[0] + " ist der einzige sogenannte [[Tettsted]], also die einzige Ansiedlung, die für statistische Zwecke als eine Ortschaft gewertet wird."
+            if (row[1] == row[2]):
+                text+= "Zum {{EWD|Ort NO|}} lebten dort {{EWZ|Ort NO|" + row[1] + "}} Einwohner.<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
+            else:
+                text+= "Zum {{EWD|Ort NO|}} lebten in der Kommune " + self.name + " {{EWZ|Ort NO|" + row[1] + "}} der insgesamt {{EWZ|Ort NO|" + row[2] + "}} Einwohner des Tettsteds.<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
+             
+            return text   
+
+        if (len(list) == 2):
+            r1 = list[0]
+            r2 = list[1]
+
+            text = "In der Gemeinde liegen zwei sogenannte [[Tettsted]]er, also zwei Ansiedlungen, die für statistische Zwecke als eine Ortschaft gewertet werden. Diese sind "
+
+            if (r1[1] == r1[2]):
+                text += r1[0] + " mit {{EWZ|Ort NO|" + r1[1] + "}} und "
+            else:
+                text += r1[0] + " mit {{EWZ|Ort NO|" + r1[1] + "}} der insgesamt {{EWZ|Ort NO|" + r1[2] + "}} Einwohner des Tettsteds und "
+                
+            if (r2[1] == r2[2]):
+                text += r2[0] + " mit {{EWZ|Ort NO|" + r2[1] + "}} Einwohnern"
+            else:
+                text += r2[0] + " mit {{EWZ|Ort NO|" + r2[1] + "}} der insgesamt {{EWZ|Ort NO|" + r2[2] + "}} Einwohner des Tettsteds"
+                
+            return text + " (Stand: {{EWD|Ort NO|}}).<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"    
+
+        text = "In der Gemeinde liegen mehrere sogenannte [[Tettsted]]er, also mehrere Ansiedlungen, die für statistische Zwecke als eine Ortschaft gewertet werden. Diese sind "
+
+        for i in range(len(list)):
+            row = list[i]
+            
+            if (i < len(list) - 1):
+                if (row[1] == row[2]):
+                    text += row[0] + " mit {{EWZ|Ort NO|" + row[1] + "}}, "
+                else:
+                    text += row[0] + " mit {{EWZ|Ort NO|" + row[1] + "}} der insgesamt {{EWZ|Ort NO|" + row[2] + "}} Einwohner des Tettsteds, "
+            else:
+                if (row[1] == row[2]):
+                    text += " und " + row[0] + " mit {{EWZ|Ort NO|" + row[1] + "}} Einwohnern (Stand: {{EWD|Ort NO|}}).<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
+                else:
+                    text += " und " + row[0] + " mit {{EWZ|Ort NO|" + row[1] + "}} der insgesamt {{EWZ|Ort NO|" + row[2] + "}} Einwohner des Tettsteds (Stand: {{EWD|Ort NO|}}).<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
+
+        return text
     
     def write_citizen_name(self):
         citizenName = self.muni.get_citizen_name()
