@@ -78,7 +78,7 @@ class MunicipalityArticle:
         else:
             text += "31. Dezember 2019 gehörte " + self.name + " dem damaligen Fylke [[]] an. Dieses ging im Zuge der [[Regionalreform in Norwegen]] in das zum 1. Januar 2020 neu geschaffene Fylke " + fylke_name + " über."
 
-        return text + reference.get_source_reg_reform_2020()
+        return text + reference.get_source_reg_reform_2020_en()
 
     def write_history(self):
         text = "== Geschichte ==\n" + reference.get_source_ssb_muni_history()
@@ -160,19 +160,19 @@ class MunicipalityArticle:
 
         if (language == "bokmål"):
             if fylke_nr in ("34", "30", "18", "54"): #Innlandet, Viken, Nordland, ToF
-                text = "Offizielle Schriftsprache ist wie in vielen Kommunen in " + fylke_name + " [[Bokmål]], also die weiter verbreitete der beiden norwegischen Sprachformen."
+                text = "Offizielle Schriftsprache ist wie in vielen Kommunen in " + fylke_name + " [[Bokmål]], die weiter verbreitete der beiden norwegischen Sprachformen."
             elif fylke_nr in ("38", "11"): #VoT, Rogaland
-                text = "Offizielle Schriftsprache ist wie in nur wenigen Kommunen in " + fylke_name + " [[Bokmål]], also die weiter verbreitete der beiden norwegischen Sprachformen."
+                text = "Offizielle Schriftsprache ist wie in nur wenigen Kommunen in " + fylke_name + " [[Bokmål]], die weiter verbreitete der beiden norwegischen Sprachformen."
             elif fylke_nr in ("42", "50"):
-                text = "Offizielle Schriftsprache ist wie in einigen weiteren Kommunen in " + fylke_name + " [[Bokmål]], also die weiter verbreitete der beiden norwegischen Sprachformen."
+                text = "Offizielle Schriftsprache ist wie in einigen weiteren Kommunen in " + fylke_name + " [[Bokmål]], die weiter verbreitete der beiden norwegischen Sprachformen."
 
         elif (language == "nynorsk"):
             if fylke_nr in ("34", "30"): #Innlandet, Viken
-                text = "Offizielle Schriftsprache ist wie in nur wenigen Kommunen in " + fylke_name + " [[Nynorsk]], also die weniger weit verbreitete der beiden norwegischen Sprachformen."
+                text = "Offizielle Schriftsprache ist wie in nur wenigen Kommunen in " + fylke_name + " [[Nynorsk]], die weniger weit verbreitete der beiden norwegischen Sprachformen."
             elif fylke_nr in ("11", "46", "15"): #Rogaland, Vestland, Møre
-                text = "Offizielle Schriftsprache ist wie in vielen Kommunen in " + fylke_name + " [[Nynorsk]], also die weniger weit verbreitete der beiden norwegischen Sprachformen."
+                text = "Offizielle Schriftsprache ist wie in vielen Kommunen in " + fylke_name + " [[Nynorsk]], die weniger weit verbreitete der beiden norwegischen Sprachformen."
             elif fylke_nr in ("42", "38"): #Agder, VoT
-                text = "Offizielle Schriftsprache ist wie in einigen weiteren Kommunen in " + fylke_name + " [[Nynorsk]], also die weniger weit verbreitete der beiden norwegischen Sprachformen."
+                text = "Offizielle Schriftsprache ist wie in einigen weiteren Kommunen in " + fylke_name + " [[Nynorsk]], die weniger weit verbreitete der beiden norwegischen Sprachformen."
 
         elif (language == "nøytral"):
             if fylke_nr in ("34", "18", "54", "38", "42", "11", "50"): #Innlandet, Nordland, ToF, VoT, Agder, Rogaland, Trøndelag

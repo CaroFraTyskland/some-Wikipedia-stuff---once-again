@@ -7,11 +7,14 @@ import fylke
 import municipality
 import municipalityArticle
 import population_over_time
+import checkForDeadLinks
 
 def print_help():
     help = "ac:\tprints categories from an article\n"
     help = help + "cat:\tprints articles from a category and its subcategories\n"
     help = help + "cv:\tchecks articles for possible copyright violations (via copyvios.toolforge.org) -> can take forever\n"
+    help = help + "dl -a:\tchecks article for dead links\n"
+    help = help + "dl -cat:\tchecks category for dead links\n"
     help = help + "ec:\tprints the edit count of a user\n"
     help = help + "f -name:\tprints name of fylke with a certain fylke number\n"
     help = help + "f -nr:\tprints a fylke number of a fylke with a certain name\n"
@@ -69,6 +72,14 @@ while (not quit):
     elif command == "copyvios" or command == "cv":
         article = input("zu prüfender Artikel: ")
         copyVioCheck.get_possible_violation(article)
+
+    elif command == "dl -a":
+        article = input("Artikel: ")
+        checkForDeadLinks.test_article(article)
+
+    elif command == "dl -cat":
+        cat = input("Kategorie: ")
+        checkForDeadLinks.check_category(cat)
 
     elif command == "ec":
         user = input("Username: ")

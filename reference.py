@@ -12,6 +12,9 @@ def get_source_reg_sami():
 def get_source_reg_reform_2020():
     return "<ref>{{Internetquelle |url=https://www.regjeringen.no/no/tema/kommuner-og-regioner/kommunestruktur/nyekommuneogfylkesnummer/id2629203/ |titel=Nye kommune- og fylkesnummer fra 2020 |werk=regjeringen.no |sprache=no |datum=2020-01-08 |abruf=" + get_todays_date() + "}}</ref>"
 
+def get_source_reg_reform_2020_en():
+    return "<ref>{{Internetquelle |url=https://www.regjeringen.no/no/dokumentarkiv/regjeringen-solberg/kmd/tema-og-redaksjonelt-innhold/redaksjonelle-artikler/reform-of-local-government/id2548429/ |titel=Reform of local government |werk=regjeringen.no |datum=2020-12-03 |sprache=en |abruf=" + get_todays_date() + "}}</ref>"
+
 def get_source_stadnamn(place_name):
     return "<ref>{{Internetquelle |url= |titel=" + place_name + " |werk=Norsk stadnamnleksikon |sprache=nn |abruf=" + get_todays_date() + "}}</ref>"
 

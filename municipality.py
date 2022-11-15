@@ -312,7 +312,7 @@ def __create_list():
     municipalities.append(Municipality("Rauma", "1539", "Kommune"))
     municipalities.append(Municipality("Rendalen", "3424"))
     municipalities.append(Municipality("Rennebu", "5022"))
-    municipalities.append(Municipality("Rindal", "5061"))
+    municipalities.append(Municipality("Rindal", "5061", "Norwegen"))
     municipalities.append(Municipality("Ringebu", "3439"))
     municipalities.append(Municipality("Ringerike", "3007"))
     municipalities.append(Municipality("Ringsaker", "3411"))

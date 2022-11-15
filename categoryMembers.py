@@ -11,7 +11,6 @@ def __convert_cat_name(cat_name):
 #puts the articles of the category into a list and if there are subcategories those are checked, too
 def __create_article_list(code):
     members = code["query"]["categorymembers"]
-    print (".")
 
     for member in members:
         type = member["type"]
@@ -25,7 +24,6 @@ def __create_article_list(code):
 #puts the subcategories of the category into a list and if there are subcategories those are checked, too
 def __create_subcat_list(code):
     members = code["query"]["categorymembers"]
-    print (".")
 
     for member in members:
         if member["type"] == "subcat":
@@ -54,7 +52,8 @@ def __check_cat_for_subcats(cat):
 def get_articles_from_list(cat):
     __check_cat_for_articles(cat)
     
-    return list.sort()
+    list.sort()
+    return list
 
 #returns a list of subcategories from a cat
 def get_subcats_from_list(cat):
