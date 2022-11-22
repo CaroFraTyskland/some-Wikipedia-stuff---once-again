@@ -7,6 +7,9 @@ class Fylke():
 
     def get_name(self):
         return self.name
+
+    def get_number(self):
+        return self.number
     
     def get_wiki_link(self):
         if self.name == self.wikipedia_article:

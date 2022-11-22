@@ -14,6 +14,9 @@ class Municipality():
 
     def get_fylke(self):
         return fylke.get_fylke_by_number(self.fylke_nr)
+
+    def get_name(self):
+        return self.name
         
     def get_citizen_name(self):
         populationName = ""

@@ -54,7 +54,7 @@ def get_ssb_muni_weblink(name):
 
     return "* [https://www.ssb.no/kommunefakta/" + lowerCaseName + " Fakten über " + name + "] beim [[Statistisk sentralbyrå]] (norwegisch)"
 
-def __replace_letters(text):
+def replace_letters(text):
     text = text.replace("Ø", "O")
     text = text.replace("ø", "o")
     text = text.replace("å", "a")

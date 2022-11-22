@@ -8,6 +8,7 @@ import municipality
 import municipalityArticle
 import population_over_time
 import checkForDeadLinks
+import tettstedArticle
 
 def print_help():
     help = "ac:\tprints categories from an article\n"
@@ -25,6 +26,7 @@ def print_help():
     help = help + "pop -t:\tprints the table with the population development of a municipality\n"
     help = help + "q:\tquit\n"
     help = help + "sc:\tprints subcategories from a category and its subcategories\n"
+    help = help + "tett:\prints the Wikipedia article for a tettsted\n"
     help = help + "valg:\tprints the table with the election results; needs path to csv file (https://valgresultat.no/?type=st -> Eksport av valgresultater -> Partifordeling (Landsnivå)"
 
     print (help)
@@ -46,7 +48,7 @@ def get_muni_number():
 def get_fylke_number():
     accepted = False
     while (accepted == False):
-        number = input("Fylkenummer: ")
+        number = input("Fylkesnummer: ")
         
         if (fylke.get_fylke_by_number(number) != ""):
             accepted = True
@@ -54,6 +56,16 @@ def get_fylke_number():
             print ("keine gültige Nummer")
     
     return number
+
+#asks user a yes/no question until he enters a valid one
+def get_input_yn(question):
+    while (True):
+        answer = input(question + " (y/n): ")
+        
+        if (answer == "y" or answer == "yes" or answer == "j" or answer == "ja"):
+            return True
+        elif (answer == "n" or answer == "no" or answer == "nein"): 
+            return False
 
 
 quit = False
@@ -127,6 +139,13 @@ while (not quit):
     elif command == "subcats" or command == "sc":
         cat = input("Name der Kategorie: ")
         categoryMembers.print_subcats_cat(cat)
+
+    elif command == "tett" or command == "tettsted":
+        number = input("Tettstednummer: ")
+        is_city = get_input_yn("Stadt")
+        is_admin_centre = get_input_yn("Verwaltungszentrum")
+        print("\n")
+        print(tettstedArticle.write_article(number, is_city, is_admin_centre))
 
     elif command == "valg":
         year = input("Jahr: ")

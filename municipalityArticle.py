@@ -100,9 +100,9 @@ class MunicipalityArticle:
 
             text = row[0] + " ist der einzige sogenannte [[Tettsted]], also die einzige Ansiedlung, die für statistische Zwecke als eine Ortschaft gewertet wird."
             if (row[1] == row[2]):
-                text+= "Zum {{EWD|Ort NO|}} lebten dort {{EWZ|Ort NO|" + row[1] + "}} Einwohner.<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
+                text+= " Zum {{EWD|Ort NO|}} lebten dort {{EWZ|Ort NO|" + row[1] + "}} Einwohner.<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
             else:
-                text+= "Zum {{EWD|Ort NO|}} lebten in der Kommune " + self.name + " {{EWZ|Ort NO|" + row[1] + "}} der insgesamt {{EWZ|Ort NO|" + row[2] + "}} Einwohner des Tettsteds.<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
+                text+= " Zum {{EWD|Ort NO|}} lebten in der Kommune " + self.name + " {{EWZ|Ort NO|" + row[1] + "}} der insgesamt {{EWZ|Ort NO|" + row[2] + "}} Einwohner des Tettsteds.<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
              
             return text   
 

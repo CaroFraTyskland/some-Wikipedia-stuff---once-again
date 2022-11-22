@@ -78,3 +78,44 @@ def get_tettsted_list_muni(muni_nr):
                 list.append(new_row)            
         
     return list
+
+
+def get_tettsted_by_tettsted_nr(tettsted_nr):
+    list = []
+    next = False
+    stopAtNextTettsted = False
+
+    with open('tettsted2021.csv') as csvfile:
+        reader = csv.reader(csvfile, delimiter=';')
+        
+        for row in reader:
+            if next and row[0] == "":
+                new_row = []
+                new_row.append("") #tettsted nr
+                new_row.append("") #tettsted name
+                new_row.append(row[1][:4]) #muni nr
+                new_row.append(row[3].replace(" ", "")) #population
+                new_row.append(row[5]) #area
+
+                list.append(new_row)
+            else:
+                next = False
+
+            if tettsted_nr in row[0]:
+                new_row = []
+                new_row.append(row[0][:4]) #tettsted nr
+                new_row.append(row[0][5:].replace(" i alt", "")) #tettsted name
+
+                if row[1] == "":
+                    new_row.append("") #muni nr
+                    next = True
+                else:
+                    new_row.append(row[1][:4]) #muni nr
+
+
+                new_row.append(row[2].replace(" ", "")) #population
+                new_row.append(row[4]) #area
+                    
+                list.append(new_row)
+        
+    return list
