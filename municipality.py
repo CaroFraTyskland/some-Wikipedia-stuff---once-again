@@ -1,13 +1,14 @@
 import fylke
 import csv
 
+
 class Municipality():
-    def __init__(self, name, number, wikipedia_article = ""):
+    def __init__(self, name, number, wikipedia_article=""):
         self.name = name
         self.number = number
         self.fylke_nr = number[:2]
 
-        if (wikipedia_article == ""):
+        if wikipedia_article == "":
             self.wikipedia_article = name
         else:
             self.wikipedia_article = name + " (" + wikipedia_article + ")"
@@ -17,20 +18,20 @@ class Municipality():
 
     def get_name(self):
         return self.name
-        
+
     def get_citizen_name(self):
-        populationName = ""
+        population_name = ""
 
         with open('namn.csv') as csvfile:
             reader = csv.reader(csvfile, delimiter=';')
             for row in reader:
                 if row[1] == self.number:
-                    if (populationName == ""):
-                        populationName = row[0].capitalize()
+                    if population_name == "":
+                        population_name = row[0].capitalize()
                     else:
-                        populationName = populationName + "'' oder ''" + row[0].capitalize()
-        
-        return populationName
+                        population_name = population_name + "'' oder ''" + row[0].capitalize()
+
+        return population_name
 
     def get_language(self):
         with open('language.csv') as csvfile:
@@ -40,7 +41,7 @@ class Municipality():
                     return row[2]
 
         return ""
-            
+
     def get_highest_mountain(self):
         with open('mountains.csv') as csvfile:
             reader = csv.reader(csvfile, delimiter=';')
@@ -55,40 +56,32 @@ class Municipality():
             return "[[" + self.wikipedia_article + "]]"
         else:
             return "[[" + self.wikipedia_article + "|" + self.name + "]]"
-    
-    def get_language(self):
-        with open('language.csv') as csvfile:
-            reader = csv.reader(csvfile, delimiter=';')
 
-            for row in reader:
-                if row[0] == self.number:
-                    form = row[2]
-
-                    return form
-        
-        return ""
 
 municipalities = []
 
-def get_municipality_by_name (name):
+
+def get_municipality_by_name(name):
     if len(municipalities) == 0:
         __create_list()
 
     for municipality in municipalities:
-        if(municipality.name == name):
+        if municipality.name == name:
             return municipality
-    
+
     return ""
 
-def get_municipality_by_number (number):
+
+def get_municipality_by_number(number):
     if len(municipalities) == 0:
         __create_list()
 
     for municipality in municipalities:
-        if(municipality.number == number):
+        if municipality.number == number:
             return municipality
-    
+
     return ""
+
 
 def __create_list():
     municipalities.append(Municipality("Alstahaug", "1820"))
@@ -103,7 +96,7 @@ def __create_list():
     municipalities.append(Municipality("Askøy", "4627"))
     municipalities.append(Municipality("Aukra", "1547"))
     municipalities.append(Municipality("Aure", "1576"))
-    municipalities.append(Municipality("Aurland", "4641")) 
+    municipalities.append(Municipality("Aurland", "4641"))
     municipalities.append(Municipality("Aurskog-Høland", "3026"))
     municipalities.append(Municipality("Austevoll", "4625"))
     municipalities.append(Municipality("Austrheim", "4632"))

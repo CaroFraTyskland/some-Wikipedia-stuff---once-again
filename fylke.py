@@ -10,36 +10,40 @@ class Fylke():
 
     def get_number(self):
         return self.number
-    
+
     def get_wiki_link(self):
         if self.name == self.wikipedia_article:
             return "[[" + self.name + "]]"
         else:
             return "[[" + self.wikipedia_article + "|" + self.name + "]]"
 
+
 fylker = []
 
-def get_fylke_by_number (number):
+
+def get_fylke_by_number(number):
     if len(fylker) == 0:
         __create_list()
 
     for fylke in fylker:
         if str(fylke.number) == str(number):
             return fylke
-    
+
     return ""
 
-def get_fylke_by_name (name):
+
+def get_fylke_by_name(name):
     if len(fylker) == 0:
         __create_list()
-        
+
     for fylke in fylker:
-        if(fylke.name.lower() == name.lower()):
+        if fylke.name.lower() == name.lower():
             return fylke
-    
+
     return ""
 
-def is_new (fylke_nr):
+
+def is_new(fylke_nr):
     return fylke_nr in ("42", "34", "54", "50", "38", "46", "30")
 
 

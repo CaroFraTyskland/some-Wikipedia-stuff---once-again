@@ -1,0 +1,1073 @@
+0001 Halden;3001 Halden;25 916;;14,31;;1 811
+0002 Sponvika;3001 Halden;538;;0,41;;1 320
+0003 Isebakke;3001 Halden;861;;1,55;;555
+0006 Solbakken-Sofienberg;3001 Halden;218;;0,21;;1 024
+0012 Hasle;3003 Sarpsborg;694;;0,53;;1 312
+0013 Stikkaåsen;3003 Sarpsborg;209;;0,13;;1 668
+0022 Fredrikstad/Sarpsborg i alt;;118 992;;60,09;;1 980
+;3004 Fredrikstad;;70 161;;35,60;1 971
+;3003 Sarpsborg;;48 831;;24,49;1 994
+0031 Moss i alt;;48 477;;22,22;;2 182
+;3002 Moss;;42 043;;18,27;2 301
+;3019 Vestby;;6 434;;3,95;1 629
+0033 Såstadbråten;3002 Moss;428;;0,27;;1 572
+0041 Skjærhalden;3011 Hvaler;936;;0,85;;1 097
+0042 Rød;3011 Hvaler;687;;0,39;;1 768
+0043 Hauge;3011 Hvaler;407;;0,46;;879
+0044 Utgård;3011 Hvaler;324;;0,32;;1 015
+0045 Norderhaug;3011 Hvaler;603;;0,50;;1 217
+0051 Skivika i alt;;1 075;;0,51;;2 106
+;3004 Fredrikstad;;1 050;;0,50;2 088
+;3003 Sarpsborg;;25;;0,01;3 319
+0053 Glosli;3004 Fredrikstad;773;;0,56;;1 375
+0054 Holm;3004 Fredrikstad;253;;0,24;;1 064
+0061 Ise;3003 Sarpsborg;718;;0,62;;1 159
+0071 Skjeberg;3003 Sarpsborg;1 522;;0,93;;1 643
+0072 Høysand;3003 Sarpsborg;737;;0,89;;827
+0081 Ørje;3013 Marker;1 849;;1,69;;1 092
+0091 Skjønhaug;3014 Indre Østfold;2 094;;1,77;;1 185
+0092 Hamnås;3014 Indre Østfold;234;;0,26;;884
+0093 Heiås;3014 Indre Østfold;896;;0,88;;1 020
+0101 Spydeberg;3014 Indre Østfold;6 419;;3,68;;1 743
+0111 Askim;3014 Indre Østfold;14 651;;7,57;;1 936
+0121 Mysen;3014 Indre Østfold;6 882;;4,72;;1 459
+0122 Slitu;3014 Indre Østfold;778;;0,66;;1 172
+0123 Trømborg;3014 Indre Østfold;242;;0,22;;1 093
+0124 Finnestad;3014 Indre Østfold;220;;0,22;;1 017
+0125 Jansberg;3014 Indre Østfold;263;;0,18;;1 496
+0131 Skiptvet;3015 Skiptvet;1 829;;1,19;;1 534
+0141 Rakkestad;3016 Rakkestad;4 855;;3,57;;1 360
+0142 Degernes;3016 Rakkestad;324;;0,32;;1 020
+0151 Jelsnes;3003 Sarpsborg;326;;0,22;;1 515
+0161 Rostadneset;3004 Fredrikstad;280;;0,15;;1 884
+0172 Lunde;3004 Fredrikstad;475;;0,24;;1 981
+0181 Øyenkilen;3004 Fredrikstad;467;;0,54;;865
+0182 Slevik;3004 Fredrikstad;1 166;;0,88;;1 325
+0185 Lervik;3004 Fredrikstad;3 343;;2,28;;1 466
+0191 Spetalen i alt;;2 318;;1,71;;1 356
+;3017 Råde;;2 194;;1,51;1 450
+;3004 Fredrikstad;;124;;0,20;631
+0193 Karlshus;3017 Råde;2 327;;1,95;;1 193
+0194 Missingmyr;3017 Råde;929;;0,93;;1 003
+0195 Tomb;3017 Råde;284;;0,38;;742
+0201 Halmstad i alt;;3 408;;1,82;;1 875
+;3002 Moss;;3 294;;1,67;1 971
+;3017 Råde;;114;;0,15;780
+0202 Larkollen;3002 Moss;1 507;;1,56;;966
+0203 Kirkegrenda;3002 Moss;329;;0,30;;1 086
+0204 Fuglevik;3002 Moss;495;;0,35;;1 404
+0206 Møvik;3002 Moss;244;;0,23;;1 053
+0211 Kirkebygden;3018 Våler (Viken);1 484;;1,00;;1 485
+0212 Våk;3018 Våler (Viken);944;;0,50;;1 878
+0213 Svinndal;3018 Våler (Viken);582;;0,44;;1 318
+0214 Rød;3018 Våler (Viken);1 023;;0,36;;2 863
+0221 Tomter;3014 Indre Østfold;2 112;;1,11;;1 909
+0223 Ringvoll;3014 Indre Østfold;530;;0,45;;1 175
+0503 Hølen;3019 Vestby;1 060;;0,69;;1 546
+0508 Vestby;3019 Vestby;8 199;;3,59;;2 283
+0511 Siggerud;3020 Nordre Follo;1 493;;0,73;;2 035
+0512 Ski i alt;;20 836;;9,81;;2 123
+;3020 Nordre Follo;;14 223;;5,71;2 490
+;3021 Ås;;6 613;;4,10;1 613
+0513 Kråkstad;3020 Nordre Follo;1 121;;0,55;;2 053
+0514 Skotbu;3020 Nordre Follo;462;;0,19;;2 477
+0515 Sandvoll;3020 Nordre Follo;269;;0,30;;891
+0523 Ås;3021 Ås;10 762;;4,72;;2 282
+0531 Drøbak;3022 Frogn;13 675;;6,26;;2 186
+0541 Nesoddtangen;3023 Nesodden;13 189;;6,32;;2 086
+0542 Fjellstrand;3023 Nesodden;1 321;;0,92;;1 431
+0543 Fagerstrand;3023 Nesodden;2 885;;1,84;;1 568
+0544 Torvvik;3023 Nesodden;408;;0,34;;1 183
+0545 Bomansvik;3023 Nesodden;233;;0,27;;859
+0572 Konglungen;3025 Asker;270;;0,22;;1 203
+0581 Aursmoen;3026 Aurskog-Høland;3 493;;2,22;;1 573
+0582 Bjørkelangen;3026 Aurskog-Høland;4 084;;2,87;;1 423
+0584 Løken;3026 Aurskog-Høland;1 645;;1,49;;1 103
+0585 Momoen;3026 Aurskog-Høland;508;;0,41;;1 235
+0586 Hemnes;3026 Aurskog-Høland;766;;0,72;;1 064
+0587 Setskog;3026 Aurskog-Høland;203;;0,19;;1 083
+0592 Blaker;3030 Lillestrøm;480;;0,43;;1 117
+0593 Hogsetfeltet;3030 Lillestrøm;912;;0,43;;2 103
+0594 Sørumsand;3030 Lillestrøm;5 596;;2,28;;2 455
+0595 Lørenfallet;3030 Lillestrøm;1 110;;0,66;;1 690
+0596 Lindeberg;3030 Lillestrøm;1 232;;0,80;;1 536
+0597 Frogner;3030 Lillestrøm;1 555;;0,72;;2 162
+0598 Lundermoen;3030 Lillestrøm;1 455;;0,67;;2 187
+0601 Åkrene;3030 Lillestrøm;375;;0,23;;1 636
+0603 Fjellsrud;3030 Lillestrøm;936;;0,80;;1 172
+0609 Fetsund-Østersund;3030 Lillestrøm;8 966;;4,47;;2 004
+0611 Flateby;3028 Enebakk;3 803;;1,64;;2 324
+0612 Ytre Enebakk;3028 Enebakk;4 528;;2,48;;1 829
+0613 Kirkebygda;3028 Enebakk;596;;0,55;;1 085
+0622 Leirsund;3030 Lillestrøm;1 465;;0,78;;1 885
+0623 Hellerud;3030 Lillestrøm;280;;0,62;;454
+0633 Åneby;3031 Nittedal;1 501;;0,58;;2 579
+0635 Rotnes;3031 Nittedal;7 452;;2,89;;2 577
+0639 Løstad;3031 Nittedal;2 675;;1,09;;2 457
+0640 Hakadal;3031 Nittedal;846;;0,53;;1 609
+0642 Grønlund;3032 Gjerdrum;5 208;;2,28;;2 285
+0651 Kløfta;3033 Ullensaker;8 215;;3,68;;2 230
+0653 Sand;3033 Ullensaker;2 443;;0,85;;2 867
+0655 Sessvollmoen;3033 Ullensaker;1 283;;1,25;;1 030
+0656 Nordkisa;3033 Ullensaker;1 287;;0,73;;1 766
+0657 Borgen;3033 Ullensaker;1 477;;0,60;;2 460
+0659 Jessheim;3033 Ullensaker;22 953;;7,51;;3 058
+0661 Opakermoen;3034 Nes;527;;0,48;;1 099
+0662 Årnes;3034 Nes;4 918;;2,94;;1 672
+0663 Haga;3034 Nes;701;;0,64;;1 093
+0665 Fjellfoten;3034 Nes;1 328;;0,79;;1 686
+0666 Skogrand;3034 Nes;329;;0,35;;947
+0667 Brårud;3034 Nes;461;;0,38;;1 202
+0668 Vormsund;3034 Nes;428;;0,36;;1 201
+0669 Tomteråsen;3034 Nes;727;;0,49;;1 487
+0670 Kampå;3034 Nes;959;;0,75;;1 285
+0671 Minnesund;3035 Eidsvoll;544;;0,70;;776
+0672 Langset;3035 Eidsvoll;378;;0,41;;915
+0673 Eidsvoll;3035 Eidsvoll;6 530;;4,47;;1 460
+0675 Råholt i alt;;14 830;;8,35;;1 776
+;3035 Eidsvoll;;14 372;;8,05;1 785
+;3033 Ullensaker;;458;;0,30;1 529
+0681 Maura;3036 Nannestad;4 534;;2,23;;2 034
+0682 Teigebyen;3036 Nannestad;3 280;;1,59;;2 064
+0683 Åsgrenda;3036 Nannestad;1 456;;1,10;;1 329
+0684 Løkenfeltet;3036 Nannestad;631;;0,43;;1 454
+0685 Eltonåsen;3036 Nannestad;1 696;;0,74;;2 293
+0686 Rustad;3036 Nannestad;322;;0,45;;720
+0691 Prestegårdshagen;3037 Hurdal;379;;0,29;;1 291
+0692 Torget;3037 Hurdal;765;;0,87;;884
+0701 Smestad;3027 Rælingen;2 721;;0,91;;2 977
+0702 Fjellstad;3027 Rælingen;1 059;;0,59;;1 793
+0721 Aulifeltet;3034 Nes;2 875;;1,67;;1 725
+0722 Neskollen;3034 Nes;2 825;;0,89;;3 169
+0723 Bjertnestunet;3034 Nes;415;;0,22;;1 898
+0801 Oslo i alt;;1 064 235;;276,05;;3 855
+;0301 Oslo;;696 400;;130,03;5 356
+;3024 Bærum;;127 577;;48,64;2 623
+;3025 Asker;;69 702;;37,18;1 875
+;3030 Lillestrøm;;58 247;;21,36;2 728
+;3029 Lørenskog;;44 368;;12,84;3 456
+;3020 Nordre Follo;;39 925;;14,94;2 672
+;3027 Rælingen;;14 634;;4,50;3 254
+;3031 Nittedal;;10 891;;4,90;2 225
+;3049 Lier;;2 491;;1,67;1 496
+0802 Movatn;0301 Oslo;312;;0,54;;583
+1001 Hamar i alt;;28 991;;14,04;;2 065
+;3403 Hamar;;26 508;;12,21;2 171
+;3411 Ringsaker;;2 155;;1,53;1 408
+;3413 Stange;;328;;0,30;1 103
+1002 Ingeberg;3403 Hamar;916;;0,45;;2 028
+1003 Blæstadgrenda;3403 Hamar;434;;0,31;;1 384
+1011 Kongsvinger;3401 Kongsvinger;12 289;;8,24;;1 491
+1012 Roverud;3401 Kongsvinger;776;;0,98;;790
+1014 Austmarka (Kongsvinger);3401 Kongsvinger;221;;0,49;;454
+1020 Byflaten;3411 Ringsaker;256;;0,20;;1 310
+1021 Brumunddal;3411 Ringsaker;11 127;;7,28;;1 528
+1022 Tingnes;3411 Ringsaker;426;;0,43;;988
+1023 Moelv;3411 Ringsaker;4 459;;3,95;;1 130
+1025 Kvål;3411 Ringsaker;276;;0,14;;1 993
+1026 Kylstad;3411 Ringsaker;398;;0,27;;1 479
+1027 Mesnali;3411 Ringsaker;362;;0,61;;591
+1028 Stavsjø;3411 Ringsaker;262;;0,35;;742
+1031 Slemsrud;3403 Hamar;534;;0,41;;1 314
+1032 Lismarka;3411 Ringsaker;210;;0,24;;859
+1041 Ådalsbruk;3412 Løten;786;;0,80;;985
+1042 Løten;3412 Løten;2 801;;1,88;;1 489
+1043 Løiten Brænderi;3412 Løten;895;;0,76;;1 175
+1051 Tangen;3413 Stange;517;;0,60;;868
+1052 Stange;3413 Stange;3 263;;2,24;;1 457
+1053 Sørbygdafeltet;3413 Stange;422;;0,38;;1 098
+1054 Ilseng i alt;;986;;1,07;;925
+;3413 Stange;;956;;0,98;971
+;3403 Hamar;;30;;0,08;367
+1055 Gata;3413 Stange;521;;0,60;;871
+1056 Romedal Sentrum;3413 Stange;722;;0,50;;1 457
+1058 Bekkelaget;3413 Stange;6 863;;3,33;;2 062
+1061 Sand;3414 Nord-Odal;1 117;;1,34;;836
+1062 Mo;3414 Nord-Odal;398;;0,58;;690
+1071 Skarnes;3415 Sør-Odal;2 626;;2,44;;1 078
+1072 Sander;3415 Sør-Odal;292;;0,27;;1 084
+1073 Disenå;3415 Sør-Odal;255;;0,52;;487
+1082 Skotterud;3416 Eidskog;1 366;;1,52;;899
+1083 Magnor;3416 Eidskog;902;;1,41;;641
+1092 Kirkenær;3417 Grue;1 213;;1,94;;624
+1101 Flisa;3418 Åsnes;1 738;;1,87;;929
+1102 Kjellmyra;3418 Åsnes;435;;0,65;;669
+1112 Våler;3419 Våler (Innlandet);1 138;;1,28;;888
+1113 Braskereidfoss;3419 Våler (Innlandet);246;;1,04;;236
+1121 Elverum;3420 Elverum;15 432;;11,96;;1 290
+1132 Nybergsund;3421 Trysil;379;;0,57;;669
+1133 Innbygda;3421 Trysil;2 461;;3,05;;807
+1141 Rena;3422 Åmot;2 100;;2,02;;1 039
+1151 Koppang;3423 Stor-Elvdal;1 057;;2,02;;524
+1161 Otnes;3424 Rendalen;253;;0,49;;520
+1181 Tolga;3426 Tolga;577;;1,05;;552
+1191 Tynset;3427 Tynset;2 859;;2,96;;966
+1201 Alvdal;3428 Alvdal;779;;1,36;;572
+1211 Folldal;3429 Folldal;507;;1,04;;486
+1221 Os;3430 Os;663;;1,04;;640
+1501 Lillehammer;3405 Lillehammer;21 100;;11,52;;1 832
+1502 Jørstadmoen;3405 Lillehammer;668;;0,80;;834
+1503 Fåberg;3405 Lillehammer;706;;0,52;;1 370
+1505 Vingrom;3405 Lillehammer;757;;0,64;;1 178
+1506 Vingnes;3405 Lillehammer;1 509;;0,96;;1 573
+1511 Gjøvik;3407 Gjøvik;20 315;;12,87;;1 579
+1513 Bybrua;3407 Gjøvik;1 064;;0,88;;1 209
+1515 Biri;3407 Gjøvik;1 580;;2,07;;764
+1516 Monssveen;3407 Gjøvik;356;;0,24;;1 512
+1522 Dombås;3431 Dovre;1 161;;1,56;;745
+1541 Bismo;3433 Skjåk;611;;1,22;;499
+1551 Fossbergom;3434 Lom;840;;1,47;;573
+1561 Vågåmo;3435 Vågå;1 496;;1,68;;892
+1562 Lalm;3435 Vågå;334;;0,34;;969
+1571 Vinstra;3436 Nord-Fron;2 648;;3,08;;859
+1572 Kvam;3436 Nord-Fron;759;;1,15;;660
+1582 Otta;3437 Sel;2 288;;2,16;;1 059
+1584 Bjølstad;3437 Sel;376;;0,53;;716
+1585 Sandbumoen;3437 Sel;249;;0,24;;1 045
+1591 Hundorp;3438 Sør-Fron;577;;0,85;;682
+1592 Harpefoss;3438 Sør-Fron;321;;0,52;;616
+1593 Lia;3438 Sør-Fron;272;;0,42;;646
+1601 Ringebu;3439 Ringebu;1 369;;1,86;;738
+1602 Fåvang;3439 Ringebu;722;;0,96;;751
+1611 Granrudmoen;3440 Øyer;2 154;;2,38;;906
+1612 Tretten;3440 Øyer;870;;1,22;;714
+1621 Segalstad Bru;3441 Gausdal;1 046;;1,30;;804
+1622 Follebu;3441 Gausdal;1 176;;1,14;;1 030
+1623 Forset;3441 Gausdal;584;;0,71;;828
+1631 Kapp;3442 Østre Toten;2 145;;1,86;;1 155
+1632 Sletta;3442 Østre Toten;292;;0,33;;885
+1633 Lena;3442 Østre Toten;1 264;;1,41;;895
+1635 Skreia;3442 Østre Toten;900;;1,02;;878
+1636 Lensbygda;3442 Østre Toten;481;;0,58;;831
+1637 Kolbu;3442 Østre Toten;652;;0,62;;1 055
+1638 Nordlia;3442 Østre Toten;672;;0,48;;1 395
+1642 Reinsvoll;3443 Vestre Toten;1 052;;1,18;;889
+1643 Bøverbru;3443 Vestre Toten;741;;0,67;;1 105
+1644 Eina;3443 Vestre Toten;713;;0,73;;981
+1645 Raufoss i alt;;7 918;;7,12;;1 112
+;3443 Vestre Toten;;7 646;;6,72;1 138
+;3407 Gjøvik;;272;;0,40;680
+1652 Jevnaker;3053 Jevnaker;5 077;;4,07;;1 248
+1661 Lunner;3054 Lunner;971;;0,93;;1 042
+1662 Roa;3054 Lunner;957;;1,02;;935
+1663 Grua;3054 Lunner;1 532;;0,79;;1 938
+1664 Harestua;3054 Lunner;2 426;;1,52;;1 595
+1675 Brandbu/Jaren;3446 Gran;4 888;;5,51;;887
+1676 Gran/Ringstad;3446 Gran;1 680;;1,45;;1 159
+1683 Hov;3447 Søndre Land;2 055;;2,28;;902
+1691 Dokka;3448 Nordre Land;2 958;;3,38;;876
+1701 Bagn;3449 Sør-Aurdal;626;;0,86;;729
+1711 Fagernes;3451 Nord-Aurdal;1 961;;2,00;;983
+1712 Leira;3451 Nord-Aurdal;924;;1,14;;810
+1713 Aurdal;3451 Nord-Aurdal;647;;0,82;;785
+1721 Røn;3452 Vestre Slidre;257;;0,48;;533
+1722 Slidre;3452 Vestre Slidre;322;;0,47;;687
+1731 Moane;3453 Øystre Slidre;348;;0,63;;548
+1732 Beitostølen;3453 Øystre Slidre;374;;1,09;;345
+1733 Heggenes;3453 Øystre Slidre;276;;0,46;;600
+1751 Bruflat;3450 Etnedal;225;;0,42;;536
+2003 Drammen i alt;;111 036;;47,43;;2 341
+;3005 Drammen;;83 206;;30,16;2 759
+;3049 Lier;;13 431;;8,51;1 579
+;3048 Øvre Eiker;;9 549;;6,42;1 488
+;3025 Asker;;4 311;;2,07;2 083
+;3802 Holmestrand;;539;;0,28;1 939
+2004 Konnerud;3005 Drammen;10 403;;4,72;;2 205
+2011 Hvittingfoss;3006 Kongsberg;1 143;;1,14;;999
+2015 Kongsberg;3006 Kongsberg;22 568;;13,73;;1 644
+2025 Vang;3007 Ringerike;2 312;;1,66;;1 394
+2028 Tyristrand;3007 Ringerike;934;;1,05;;888
+2029 Sokna;3007 Ringerike;616;;0,65;;941
+2030 Hallingby;3007 Ringerike;889;;0,65;;1 376
+2032 Norderhov;3007 Ringerike;314;;0,35;;890
+2033 Hønefoss;3007 Ringerike;16 547;;9,19;;1 800
+2034 Nakkerud;3007 Ringerike;355;;0,42;;852
+2041 Steinsåsen;3038 Hole;2 045;;1,24;;1 655
+2042 Helgelandsmoen i alt;;574;;0,58;;996
+;3038 Hole;;525;;0,52;1 013
+;3007 Ringerike;;49;;0,06;846
+2043 Gomnes;3038 Hole;373;;0,26;;1 409
+2044 Kroksund;3038 Hole;342;;0,22;;1 537
+2045 Sundvollen;3038 Hole;1 171;;0,80;;1 460
+2051 Nesbyen;3040 Nesbyen;2 129;;2,66;;800
+2061 Gol;3041 Gol;2 954;;3,27;;902
+2071 Hemsedal;3042 Hemsedal;944;;0,93;;1 010
+2072 Svøo;3042 Hemsedal;606;;0,72;;843
+2081 Ål;3043 Ål;2 346;;2,73;;859
+2082 Torpo;3043 Ål;375;;0,70;;538
+2091 Hol;3044 Hol;297;;0,39;;762
+2092 Geilo;3044 Hol;2 020;;2,83;;713
+2093 Geilolie;3044 Hol;552;;0,41;;1 344
+2101 Krøderen;3046 Krødsherad;570;;0,77;;741
+2102 Noresund;3046 Krødsherad;349;;0,54;;648
+2113 Vikersund;3047 Modum;3 171;;2,41;;1 313
+2114 Åmot/Geithus;3047 Modum;6 839;;5,91;;1 158
+2115 Sysle;3047 Modum;246;;0,21;;1 152
+2121 Darbu;3048 Øvre Eiker;630;;0,63;;1 002
+2122 Vestfossen;3048 Øvre Eiker;3 246;;2,32;;1 396
+2124 Skotselv i alt;;729;;0,81;;898
+;3048 Øvre Eiker;;728;;0,81;898
+;3047 Modum;;1;;0,00;680
+2125 Ormåsen;3048 Øvre Eiker;1 899;;0,80;;2 363
+2143 Sylling;3049 Lier;747;;0,59;;1 272
+2144 Tranby;3049 Lier;5 296;;2,12;;2 500
+2145 Oddevall/Sjåstad;3049 Lier;421;;0,38;;1 119
+2146 Fagerliåsen/Poverudbyen;3049 Lier;390;;0,27;;1 469
+2148 Askgrenda;3049 Lier;522;;0,15;;3 396
+2149 Nordal;3049 Lier;329;;0,18;;1 839
+2151 Nærsnes;3025 Asker;1 593;;1,07;;1 494
+2154 Røyken;3025 Asker;4 005;;2,22;;1 802
+2157 Hyggen;3025 Asker;762;;0,52;;1 472
+2161 Klokkarstua;3025 Asker;720;;0,55;;1 314
+2162 Holmsbu;3025 Asker;289;;0,40;;714
+2165 Sætre;3025 Asker;6 202;;4,22;;1 468
+2166 Tofte;3025 Asker;3 064;;2,99;;1 025
+2171 Rødberg;3052 Nore og Uvdal;495;;0,71;;699
+2191 Prestfoss;3045 Sigdal;488;;0,69;;705
+2201 Lampeland;3050 Flesberg;588;;0,63;;935
+2202 Svene;3050 Flesberg;373;;0,36;;1 038
+2211 Veggli;3051 Rollag;362;;0,68;;529
+2501 Holmestrand;3802 Holmestrand;8 023;;4,52;;1 773
+2502 Gullhaug;3802 Holmestrand;2 472;;1,38;;1 788
+2511 Horten;3801 Horten;20 758;;8,68;;2 392
+2521 Tønsberg i alt;;54 580;;26,29;;2 076
+;3803 Tønsberg;;36 699;;15,93;2 304
+;3811 Færder;;17 881;;10,36;1 725
+2522 Vollen;3803 Tønsberg;666;;0,38;;1 766
+2531 Sandefjord;3804 Sandefjord;45 816;;24,19;;1 894
+2533 Hem;3805 Larvik;676;;0,35;;1 905
+2541 Larvik;3805 Larvik;26 851;;14,99;;1 791
+2542 Tveteneåsen;3805 Larvik;850;;0,37;;2 303
+2551 Stavern;3805 Larvik;5 902;;3,75;;1 575
+2561 Berger i alt;;1 110;;0,87;;1 279
+;3005 Drammen;;1 106;;0,86;1 291
+;3802 Holmestrand;;4;;0,01;374
+2562 Svelvik i alt;;4 089;;2,33;;1 757
+;3005 Drammen;;3 964;;2,25;1 763
+;3025 Asker;;125;;0,08;1 577
+2563 Nesbygda;3005 Drammen;1 020;;0,69;;1 475
+2571 Selvik;3802 Holmestrand;3 374;;1,57;;2 149
+2572 Sande;3802 Holmestrand;2 308;;1,31;;1 757
+2573 Klevjer;3802 Holmestrand;483;;0,33;;1 450
+2574 Ekeberg;3802 Holmestrand;450;;0,32;;1 405
+2582 Hof;3802 Holmestrand;979;;0,88;;1 110
+2583 Sundbyfoss;3802 Holmestrand;568;;0,47;;1 208
+2592 Kirkevoll/Brekkeåsen;3803 Tønsberg;939;;0,59;;1 600
+2597 Revetal/Bergsåsen;3803 Tønsberg;2 441;;1,61;;1 519
+2598 Linnestad;3803 Tønsberg;314;;0,42;;747
+2599 Gretteåsen;3803 Tønsberg;214;;0,09;;2 477
+2600 Solerød;3803 Tønsberg;546;;0,35;;1 546
+2601 Nykirke;3801 Horten;726;;0,54;;1 342
+2602 Skoppum;3801 Horten;1 682;;1,16;;1 450
+2603 Åsgårdstrand i alt;;2 944;;1,47;;2 003
+;3801 Horten;;2 886;;1,42;2 030
+;3803 Tønsberg;;58;;0,05;1 215
+2605 Skjeggestadåsen;3803 Tønsberg;771;;0,40;;1 948
+2611 Kodal;3804 Sandefjord;1 059;;0,64;;1 666
+2612 Andebu;3804 Sandefjord;2 532;;1,83;;1 381
+2613 Høyjord;3804 Sandefjord;381;;0,40;;941
+2621 Vear i alt;;3 727;;2,30;;1 619
+;3803 Tønsberg;;3 708;;2,27;1 636
+;3804 Sandefjord;;19;;0,04;530
+2622 Melsomvik;3804 Sandefjord;2 067;;1,30;;1 593
+2623 Stokke;3804 Sandefjord;4 221;;2,31;;1 827
+2625 Fossnes;3804 Sandefjord;650;;0,36;;1 793
+2626 Brunstad;3804 Sandefjord;210;;0,40;;523
+2631 Sem i alt;;2 706;;2,01;;1 347
+;3803 Tønsberg;;2 661;;1,96;1 358
+;3804 Sandefjord;;45;;0,05;896
+2633 Barkåker;3803 Tønsberg;1 803;;1,10;;1 637
+2643 Kjøpmannsskjær;3811 Færder;440;;0,46;;953
+2644 Årøysund;3811 Færder;1 558;;1,28;;1 218
+2645 Glomstein;3811 Færder;893;;0,93;;956
+2651 Tjøme;3811 Færder;2 882;;2,51;;1 147
+2652 Hvasser;3811 Færder;416;;0,60;;690
+2674 Helgeroa/Nevlunghamn;3805 Larvik;1 962;;1,66;;1 185
+2682 Verningen;3805 Larvik;1 003;;0,91;;1 098
+2683 Kvelde;3805 Larvik;1 103;;0,75;;1 472
+2691 Svarstad;3805 Larvik;611;;0,66;;930
+3001 Langangen;3806 Porsgrunn;465;;0,43;;1 074
+3004 Sandøya;3806 Porsgrunn;262;;0,31;;840
+3005 Porsgrunn/Skien i alt;;94 709;;53,97;;1 755
+;3807 Skien;;50 142;;26,64;1 882
+;3806 Porsgrunn;;34 291;;20,99;1 634
+;3813 Bamble;;10 276;;6,34;1 622
+3014 Sneltvedt;3807 Skien;252;;0,19;;1 326
+3021 Notodden;3808 Notodden;9 041;;7,32;;1 235
+3022 Yli;3808 Notodden;291;;0,24;;1 198
+3031 Siljan;3812 Siljan;824;;0,65;;1 268
+3032 Snurråsen;3812 Siljan;259;;0,15;;1 715
+3033 Øverbø;3812 Siljan;256;;0,23;;1 129
+3041 Herre;3813 Bamble;1 281;;1,75;;732
+3044 Botten;3813 Bamble;253;;0,34;;750
+3051 Kil;3814 Kragerø;997;;0,87;;1 140
+3054 Kragerø;3814 Kragerø;5 366;;3,32;;1 617
+3055 Vadfoss/Helle;3814 Kragerø;1 516;;1,23;;1 228
+3061 Preststranda;3815 Drangedal;1 293;;1,58;;821
+3062 Neslandsvatn;3815 Drangedal;296;;0,33;;891
+3071 Bjervamoen;3816 Nome;1 471;;1,59;;927
+3072 Ulefoss;3816 Nome;2 302;;2,29;;1 005
+3081 Bø;3817 Midt-Telemark;3 609;;3,51;;1 027
+3083 Folkestad;3817 Midt-Telemark;398;;0,67;;590
+3084 Nordbøåsane;3817 Midt-Telemark;311;;0,25;;1 220
+3091 Hjukse;3808 Notodden;271;;0,35;;765
+3092 Nordagutu;3817 Midt-Telemark;325;;0,37;;886
+3093 Gvarv;3817 Midt-Telemark;1 109;;1,31;;844
+3101 Tinn Austbygd;3818 Tinn;393;;0,50;;791
+3102 Rjukan;3818 Tinn;3 003;;2,59;;1 160
+3103 Miland;3818 Tinn;291;;0,33;;872
+3111 Seljord;3820 Seljord;1 415;;2,21;;641
+3122 Kviteseid;3821 Kviteseid;791;;1,36;;580
+3131 Tveitsund;3822 Nissedal;540;;1,01;;534
+3141 Fyresdal;3823 Fyresdal;354;;0,62;;570
+3151 Dalen;3824 Tokke;532;;0,77;;688
+3161 Åmot;3825 Vinje;673;;1,09;;615
+3162 Krossen;3825 Vinje;558;;0,90;;619
+3501 Risør;4201 Risør;4 497;;2,92;;1 541
+3511 Arendal i alt;;44 352;;31,68;;1 400
+;4203 Arendal;;38 154;;27,31;1 397
+;4202 Grimstad;;6 198;;4,37;1 420
+3512 Longum;4203 Arendal;255;;0,19;;1 346
+3523 Grimstad;4202 Grimstad;13 956;;10,68;;1 307
+3524 Jortveit;4202 Grimstad;676;;0,62;;1 092
+3531 Tvedestrand;4213 Tvedestrand;2 633;;2,20;;1 198
+3532 Nesgrenda;4213 Tvedestrand;266;;0,29;;918
+3541 Kilsund;4203 Arendal;667;;0,97;;691
+3551 Blakstad;4214 Froland;3 306;;2,66;;1 243
+3561 Rykene i alt;;763;;0,81;;941
+;4203 Arendal;;735;;0,75;981
+;4202 Grimstad;;28;;0,06;453
+3571 Lillesand;4215 Lillesand;8 148;;5,15;;1 583
+3572 Høvåg;4215 Lillesand;331;;0,32;;1 028
+3581 Birkeland;4216 Birkenes;2 980;;2,08;;1 432
+3591 Åmli;4217 Åmli;670;;0,82;;818
+3603 Evje;4219 Evje og Hornnes;2 506;;3,53;;710
+3612 Byglandsfjord;4220 Bygland;333;;0,47;;706
+3641 Hovden;4222 Bykle;410;;0,64;;638
+3651 Gjerstad;4211 Gjerstad;287;;0,40;;724
+3652 Eikeland;4211 Gjerstad;606;;0,84;;725
+3661 Myra;4212 Vegårshei;842;;1,07;;786
+4001 Skålevik;4204 Kristiansand;3 598;;2,17;;1 656
+4002 Kristiansand;4204 Kristiansand;65 506;;25,11;;2 608
+4007 Tveit;4204 Kristiansand;1 610;;1,10;;1 466
+4009 Korsvik;4204 Kristiansand;18 802;;7,92;;2 373
+4011 Mandal;4205 Lindesnes;11 122;;6,81;;1 632
+4012 Krossen;4205 Lindesnes;611;;0,48;;1 269
+4013 Sånum;4205 Lindesnes;631;;0,47;;1 333
+4015 Farestad;4205 Lindesnes;221;;0,20;;1 083
+4021 Farsund;4206 Farsund;3 422;;3,03;;1 129
+4022 Vanse;4206 Farsund;2 016;;1,93;;1 046
+4023 Vestbygda;4206 Farsund;1 138;;0,92;;1 231
+4031 Flekkefjord;4207 Flekkefjord;6 049;;3,60;;1 681
+4032 Sira;4207 Flekkefjord;598;;0,67;;897
+4041 Skarpengland;4223 Vennesla;587;;0,41;;1 440
+4042 Vennesla i alt;;13 617;;7,28;;1 870
+;4223 Vennesla;;11 223;;5,95;1 886
+;4204 Kristiansand;;2 394;;1,33;1 795
+4043 Slettebrotane;4223 Vennesla;442;;0,26;;1 715
+4044 Hægeland;4223 Vennesla;364;;0,37;;972
+4052 Volleberg;4204 Kristiansand;550;;0,30;;1 816
+4055 Nodeland-Brennåsen;4204 Kristiansand;4 572;;3,42;;1 339
+4061 Søgne;4204 Kristiansand;10 661;;6,41;;1 663
+4071 Øyslebø;4205 Lindesnes;365;;0,39;;943
+4081 Høllen;4205 Lindesnes;709;;0,83;;857
+4082 Vigeland;4205 Lindesnes;1 597;;1,18;;1 353
+4083 Svennevik;4205 Lindesnes;370;;0,35;;1 068
+4091 Lyngdal;4225 Lyngdal;5 271;;4,73;;1 113
+4092 Skomrak;4225 Lyngdal;279;;0,16;;1 711
+4093 Svenevik;4225 Lyngdal;333;;0,30;;1 109
+4101 Feda;4227 Kvinesdal;414;;0,52;;796
+4102 Liknes;4227 Kvinesdal;2 399;;2,12;;1 134
+4103 Øye;4227 Kvinesdal;268;;0,84;;319
+4111 Tonstad;4228 Sirdal;871;;1,25;;699
+4121 Skeie;4226 Hægebostad;237;;0,35;;668
+4501 Egersund;1101 Eigersund;11 511;;7,10;;1 621
+4502 Hellvik;1101 Eigersund;867;;0,73;;1 195
+4512 Vatne;1108 Sandnes;920;;0,54;;1 710
+4514 Hommersåk;1108 Sandnes;6 681;;2,22;;3 011
+4515 Sviland;1108 Sandnes;750;;0,30;;2 540
+4516 Høle;1108 Sandnes;409;;0,36;;1 144
+4522 Stavanger/Sandnes i alt;;231 693;;80,27;;2 886
+;1103 Stavanger;;134 298;;41,67;3 223
+;1108 Sandnes;;64 884;;23,40;2 773
+;1124 Sola;;22 522;;11,73;1 921
+;1127 Randaberg;;9 989;;3,48;2 872
+4523 Krossberg;1103 Stavanger;397;;0,10;;4 058
+4524 Vassøy;1103 Stavanger;622;;0,32;;1 919
+4532 Haugesund i alt;;45 686;;21,28;;2 146
+;1106 Haugesund;;36 597;;15,51;2 360
+;1149 Karmøy;;9 089;;5,78;1 573
+4541 Hauge;1111 Sokndal;2 119;;1,64;;1 292
+4551 Moi;1112 Lund;1 937;;1,62;;1 192
+4561 Vikeså;1114 Bjerkreim;1 003;;0,95;;1 059
+4571 Nærbø;1119 Hå;7 433;;3,12;;2 382
+4572 Varhaug;1119 Hå;3 340;;1,52;;2 202
+4573 Vigrestad;1119 Hå;2 094;;1,20;;1 749
+4574 Brusand;1119 Hå;436;;0,19;;2 352
+4575 Sirevåg;1119 Hå;711;;0,62;;1 156
+4576 Ogna;1119 Hå;366;;0,26;;1 403
+4577 Hæen;1119 Hå;840;;0,47;;1 800
+4578 Nærland;1119 Hå;242;;0,16;;1 515
+4583 Pollestad;1120 Klepp;781;;0,47;;1 660
+4585 Kleppe/Verdalen;1120 Klepp;9 650;;3,32;;2 911
+4591 Bryne i alt;;12 774;;5,65;;2 261
+;1121 Time;;10 876;;4,44;2 451
+;1120 Klepp;;1 898;;1,21;1 565
+4592 Kvernaland i alt;;7 720;;4,54;;1 702
+;1120 Klepp;;4 331;;2,79;1 554
+;1121 Time;;3 359;;1,31;2 567
+;1108 Sandnes;;30;;0,44;68
+4593 Undheim;1121 Time;565;;0,40;;1 395
+4594 Lyefjell;1121 Time;2 303;;0,94;;2 442
+4601 Ålgård/Figgjo i alt;;11 679;;5,15;;2 268
+;1122 Gjesdal;;9 493;;4,25;2 235
+;1108 Sandnes;;2 186;;0,90;2 422
+4602 Oltedal;1122 Gjesdal;995;;0,58;;1 712
+4603 Gilja;1122 Gjesdal;366;;0,30;;1 214
+4614 Hålandsmarka;1124 Sola;904;;0,17;;5 250
+4615 Stenebyen;1124 Sola;1 004;;0,41;;2 430
+4617 Kolnes;1124 Sola;436;;0,93;;468
+4618 Malmheim;1108 Sandnes;333;;0,24;;1 414
+4631 Jørpeland;1130 Strand;7 414;;4,15;;1 786
+4632 Tau;1130 Strand;3 389;;2,26;;1 501
+4641 Hjelmelandsvågen;1133 Hjelmeland;561;;0,69;;812
+4651 Sand;1134 Suldal;1 180;;1,04;;1 131
+4661 Sauda;1135 Sauda;4 109;;4,12;;998
+4671 Judaberg;1103 Stavanger;885;;0,87;;1 013
+4681 Ydstebøhamn;1144 Kvitsøy;365;;0,38;;949
+4691 Førdesfjorden;1146 Tysvær;3 958;;2,61;;1 518
+4692 Aksdal;1146 Tysvær;730;;0,41;;1 774
+4693 Nedstrand;1146 Tysvær;232;;0,38;;607
+4694 Østenstad;1146 Tysvær;311;;0,33;;957
+4695 Padlene;1146 Tysvær;267;;0,17;;1 613
+4696 Slåttevik;1146 Tysvær;297;;0,21;;1 445
+4697 Grinde;1146 Tysvær;932;;0,59;;1 587
+4698 Skre i alt;;1 651;;1,03;;1 608
+;1149 Karmøy;;1 600;;0,97;1 655
+;1146 Tysvær;;51;;0,06;851
+4699 Høie;1146 Tysvær;230;;0,14;;1 588
+4702 Åkrehamn;1149 Karmøy;7 823;;4,37;;1 789
+4703 Sandve;1149 Karmøy;353;;0,48;;742
+4705 Skudeneshavn;1149 Karmøy;3 326;;2,54;;1 307
+4706 Kopervik;1149 Karmøy;11 596;;7,68;;1 510
+4708 Avaldsnes;1149 Karmøy;2 854;;3,06;;932
+4731 Skjold;1160 Vindafjord;930;;1,01;;918
+4732 Sandeid;1160 Vindafjord;689;;0,63;;1 095
+4733 Vikedal;1160 Vindafjord;486;;0,76;;639
+4741 Vikevåg;1103 Stavanger;973;;0,61;;1 606
+4742 Østhusvik;1103 Stavanger;696;;0,41;;1 685
+4743 Askje;1103 Stavanger;596;;0,26;;2 277
+4745 Vestre Åmøy;1103 Stavanger;311;;0,21;;1 484
+4763 Ferkingstad;1149 Karmøy;736;;0,79;;932
+4771 Forsand;1108 Sandnes;501;;0,61;;818
+4781 Bokn;1145 Bokn;295;;0,32;;910
+5001 Bergen;4601 Bergen;267 117;;90,60;;2 948
+5007 Arna;4601 Bergen;9 823;;4,50;;2 184
+5008 Espeland;4601 Bergen;2 485;;1,65;;1 504
+5011 Etne;4611 Etne;1 315;;1,40;;938
+5012 Skånevik;4611 Etne;547;;0,93;;586
+5021 Ølen;1160 Vindafjord;1 312;;1,11;;1 179
+5022 Ølensvåg;1160 Vindafjord;466;;0,40;;1 153
+5031 Førde;4612 Sveio;363;;0,32;;1 129
+5032 Sveio;4612 Sveio;1 523;;0,95;;1 606
+5033 Rophus;4612 Sveio;375;;0,27;;1 375
+5042 Langevåg;4613 Bømlo;738;;1,23;;602
+5043 Mosterhamn;4613 Bømlo;1 379;;1,91;;723
+5044 Rubbestadneset;4613 Bømlo;1 313;;1,24;;1 062
+5045 Svortland;4613 Bømlo;3 011;;2,70;;1 113
+5047 Foldrøy;4613 Bømlo;370;;0,35;;1 063
+5048 Steinvåg;4613 Bømlo;429;;0,45;;944
+5053 Leirvik;4614 Stord;14 374;;9,99;;1 439
+5056 Sagvåg;4614 Stord;3 417;;2,61;;1 308
+5061 Fitjar;4615 Fitjar;1 736;;1,54;;1 130
+5072 Rosendal;4617 Kvinnherad;839;;1,16;;722
+5073 Seimsfoss;4617 Kvinnherad;334;;0,40;;833
+5074 Dimmelsvik;4617 Kvinnherad;453;;0,47;;970
+5075 Uskedal;4617 Kvinnherad;756;;0,77;;985
+5076 Herøysund;4617 Kvinnherad;534;;0,50;;1 071
+5077 Husnes;4617 Kvinnherad;2 146;;2,46;;872
+5078 Sunde/Valen;4617 Kvinnherad;2 307;;1,94;;1 190
+5080 Sæbøvik;4617 Kvinnherad;508;;0,66;;771
+5081 Jondal;4618 Ullensvang;395;;0,57;;698
+5091 Skarde;4618 Ullensvang;323;;0,36;;892
+5092 Odda;4618 Ullensvang;4 731;;2,83;;1 669
+5093 Tyssedal;4618 Ullensvang;596;;0,61;;972
+5095 Røldal;4618 Ullensvang;324;;0,67;;482
+5101 Lofthus;4618 Ullensvang;586;;0,77;;757
+5102 Kinsarvik;4618 Ullensvang;581;;0,70;;830
+5111 Eidfjord;4619 Eidfjord;545;;0,75;;725
+5121 Ulvik;4620 Ulvik;514;;0,62;;832
+5132 Vossevangen;4621 Voss;6 851;;3,89;;1 761
+5133 Skulestadmoen;4621 Voss;1 430;;1,13;;1 266
+5134 Mønshaugen-Bjørgum;4621 Voss;822;;0,54;;1 524
+5135 Nordheim-Kyte;4621 Voss;320;;0,29;;1 118
+5141 Ålvik;4622 Kvam;434;;0,67;;652
+5143 Norheimsund;4622 Kvam;4 566;;3,89;;1 172
+5144 Oma;4622 Kvam;223;;0,30;;750
+5145 Ploganes;4622 Kvam;397;;0,93;;429
+5146 Vikøy;4622 Kvam;378;;0,51;;738
+5151 Eikelandsosen;4624 Bjørnafjorden;540;;0,78;;689
+5161 Haga;4623 Samnanger;1 066;;0,87;;1 225
+5171 Søfteland;4624 Bjørnafjorden;2 087;;1,21;;1 731
+5172 Søre Øyane;4624 Bjørnafjorden;1 077;;1,06;;1 018
+5173 Osøyro;4624 Bjørnafjorden;14 232;;9,24;;1 540
+5174 Søvik i alt;;1 604;;1,24;;1 293
+;4624 Bjørnafjorden;;1 251;;0,93;1 339
+;4601 Bergen;;353;;0,31;1 152
+5181 Klokkarvik;4626 Øygarden;728;;0,67;;1 087
+5182 Hammarsland;4626 Øygarden;1 000;;0,65;;1 540
+5183 Tælavåg;4626 Øygarden;602;;0,81;;744
+5184 Forland;4626 Øygarden;699;;0,72;;977
+5186 Hamre;4626 Øygarden;416;;0,48;;876
+5187 Skogsvågen;4626 Øygarden;557;;0,49;;1 133
+5188 Fardalen;4626 Øygarden;664;;0,38;;1 733
+5196 Skoge/Møvik;4626 Øygarden;915;;0,50;;1 825
+5199 Ågotnes;4626 Øygarden;3 624;;3,29;;1 103
+5200 Knappskog;4626 Øygarden;1 615;;0,91;;1 777
+5201 Askøy;4627 Askøy;24 110;;15,07;;1 600
+5202 Hanøy;4627 Askøy;892;;1,17;;760
+5203 Ramsøy;4627 Askøy;231;;0,14;;1 621
+5204 Davanger;4627 Askøy;347;;0,39;;888
+5205 Frommereid;4627 Askøy;1 080;;1,01;;1 069
+5211 Vaksdal;4628 Vaksdal;955;;0,68;;1 401
+5212 Stanghelle;4628 Vaksdal;761;;0,39;;1 930
+5213 Dale;4628 Vaksdal;1 118;;0,72;;1 555
+5221 Hausvik;4630 Osterøy;586;;0,35;;1 667
+5222 Lonevåg;4630 Osterøy;887;;0,91;;979
+5223 Valestrandfossen;4630 Osterøy;1 374;;0,95;;1 451
+5224 Fotlandsvåg;4630 Osterøy;286;;0,40;;714
+5225 Haugo;4630 Osterøy;785;;0,57;;1 374
+5227 Hamre;4630 Osterøy;211;;0,22;;979
+5231 Haugland;4631 Alver;436;;0,76;;574
+5232 Manger;4631 Alver;1 148;;1,06;;1 081
+5233 Austmarka;4631 Alver;410;;0,25;;1 654
+5241 Lindås;4631 Alver;1 395;;1,07;;1 298
+5245 Knarvik;4631 Alver;6 481;;3,85;;1 681
+5246 Leknes;4631 Alver;1 128;;0,79;;1 421
+5247 Seim;4631 Alver;432;;0,37;;1 176
+5251 Kaland;4632 Austrheim;465;;0,92;;507
+5252 Årås;4632 Austrheim;625;;0,68;;915
+5261 Fedje;4633 Fedje;378;;0,65;;586
+5281 Våge;4616 Tysnes;839;;1,05;;800
+5282 Uggdalseidet;4616 Tysnes;288;;0,42;;692
+5291 Granvin;4621 Voss;501;;0,75;;669
+5301 Storebø;4625 Austevoll;1 658;;1,78;;932
+5302 Bekkjarvik;4625 Austevoll;575;;0,85;;675
+5303 Rabben-Veivågen;4625 Austevoll;249;;0,46;;542
+5321 Frekhaug;4631 Alver;3 263;;1,64;;1 995
+5322 Krossneset;4631 Alver;508;;0,53;;953
+5323 Holme;4631 Alver;933;;0,57;;1 637
+5324 Dalemarka;4631 Alver;220;;0,08;;2 809
+5325 Moldekleiv;4631 Alver;584;;0,34;;1 706
+5326 Vikebø;4631 Alver;338;;0,39;;859
+5332 Vikavågen;4626 Øygarden;643;;0,48;;1 345
+5333 Torsteinsvik;4626 Øygarden;1 788;;1,43;;1 254
+5334 Rossnes;4626 Øygarden;370;;0,34;;1 083
+5335 Blomvåg;4626 Øygarden;521;;0,63;;829
+5342 Flesland;4601 Bergen;354;;0,42;;837
+5343 Krokeidet;4601 Bergen;380;;0,54;;701
+5344 Hordnes;4601 Bergen;344;;0,31;;1 111
+5351 Li;4626 Øygarden;436;;0,37;;1 179
+5352 Knarrevik/Straume;4626 Øygarden;12 042;;7,23;;1 665
+5353 Misje;4626 Øygarden;313;;0,24;;1 285
+5354 Fjell;4626 Øygarden;505;;0,37;;1 371
+5356 Sekkingstad;4626 Øygarden;684;;0,60;;1 135
+5357 Haganes;4626 Øygarden;277;;0,23;;1 182
+5358 Anglavika;4626 Øygarden;377;;0,26;;1 455
+5361 Eidsvik;4617 Kvinnherad;450;;0,47;;963
+5501 Florø;4602 Kinn;8 942;;6,83;;1 308
+5502 Brandsøy;4602 Kinn;693;;0,51;;1 348
+5503 Eikefjord;4602 Kinn;416;;0,39;;1 070
+5511 Byrknes;4635 Gulen;311;;0,50;;627
+5512 Eivindvik;4635 Gulen;300;;0,36;;824
+5523 Austreim;4638 Høyanger;346;;0,36;;972
+5524 Kyrkjebø;4638 Høyanger;236;;0,28;;840
+5526 Høyanger;4638 Høyanger;1 943;;1,28;;1 515
+5531 Viksøyri;4639 Vik;1 190;;1,39;;857
+5541 Balestrand;4640 Sogndal;790;;1,11;;712
+5553 Hermansverk/Leikanger;4640 Sogndal;2 215;;2,02;;1 099
+5561 Sogndalsfjøra;4640 Sogndal;4 265;;2,17;;1 963
+5562 Kaupanger;4640 Sogndal;1 057;;1,05;;1 004
+5563 Kjørnes;4640 Sogndal;888;;0,42;;2 132
+5571 Aurlandsvangen;4641 Aurland;804;;0,64;;1 263
+5572 Flåm;4641 Aurland;257;;0,42;;610
+5581 Lærdalsøyri;4642 Lærdal;1 125;;1,00;;1 126
+5591 Øvre Årdal;4643 Årdal;3 116;;1,88;;1 658
+5592 Årdalstangen;4643 Årdal;1 367;;1,19;;1 149
+5593 Seimsdalen;4643 Årdal;409;;0,28;;1 487
+5601 Gaupne;4644 Luster;1 268;;1,49;;849
+5603 Hestnes;4644 Luster;460;;0,27;;1 709
+5604 Hafslo;4644 Luster;613;;0,75;;822
+5611 Askvoll;4645 Askvoll;711;;0,71;;1 008
+5622 Dale;4646 Fjaler;1 220;;1,15;;1 060
+5623 Flekke;4646 Fjaler;292;;0,11;;2 554
+5631 Sande;4647 Sunnfjord;954;;0,71;;1 352
+5641 Langhaugane;4647 Sunnfjord;834;;0,56;;1 495
+5642 Vassenden;4647 Sunnfjord;319;;0,39;;823
+5643 Skei;4647 Sunnfjord;495;;0,57;;875
+5651 Førde;4647 Sunnfjord;10 495;;5,70;;1 843
+5652 Farsund;4647 Sunnfjord;791;;0,38;;2 057
+5661 Naustdal;4647 Sunnfjord;1 237;;0,76;;1 632
+5671 Svelgen;4648 Bremanger;1 097;;1,02;;1 074
+5672 Kalvåg;4648 Bremanger;418;;0,42;;996
+5681 Raudeberg;4602 Kinn;569;;0,66;;856
+5682 Måløy;4602 Kinn;3 303;;2,20;;1 502
+5684 Holevik;4602 Kinn;299;;0,18;;1 633
+5686 Bryggja;4649 Stad;342;;0,42;;818
+5691 Selje;4649 Stad;695;;0,80;;867
+5701 Nordfjordeid;4649 Stad;3 126;;2,53;;1 236
+5702 Mogrenda;4649 Stad;367;;0,30;;1 222
+5703 Torvika;4649 Stad;236;;0,25;;932
+5711 Grodås;1577 Volda;480;;0,66;;729
+5721 Sandane;4650 Gloppen;2 482;;2,42;;1 024
+5722 Byrkjelo;4650 Gloppen;333;;0,51;;658
+5723 Re;4650 Gloppen;374;;0,43;;868
+5731 Stryn;4651 Stryn;2 646;;2,01;;1 318
+5732 Innvik;4651 Stryn;429;;0,72;;593
+5733 Olden;4651 Stryn;486;;0,59;;820
+5734 Bergsida;4651 Stryn;246;;0,19;;1 329
+5741 Hardbakke;4636 Solund;290;;0,28;;1 034
+6001 Molde;1506 Molde;21 417;;9,27;;2 310
+6002 Hjelset;1506 Molde;971;;1,01;;962
+6003 Kleive;1506 Molde;442;;0,50;;892
+6004 Hovdenakken;1506 Molde;318;;0,28;;1 141
+6005 Nesjestranda;1506 Molde;540;;0,44;;1 216
+6008 Torhaug;1506 Molde;251;;0,16;;1 565
+6009 Hesthagen;1506 Molde;242;;0,10;;2 433
+6011 Kristiansund;1505 Kristiansund;18 047;;8,41;;2 147
+6012 Geitnes;1506 Molde;338;;0,30;;1 132
+6023 Hoffland;1507 Ålesund;934;;0,46;;2 039
+6025 Ålesund i alt;;54 983;;28,84;;1 906
+;1507 Ålesund;;45 983;;21,64;2 125
+;1531 Sula;;9 000;;7,20;1 250
+6026 Årset;1507 Ålesund;818;;0,56;;1 456
+6027 Myklebost;1507 Ålesund;317;;0,37;;859
+6031 Larsnes;1514 Sande;649;;0,60;;1 089
+6032 Haugsbygda;1514 Sande;297;;0,34;;872
+6042 Kvalsund;1515 Herøy (Møre og Romsdal);587;;0,57;;1 039
+6043 Fosnavåg;1515 Herøy (Møre og Romsdal);3 466;;3,11;;1 116
+6044 Remøy;1515 Herøy (Møre og Romsdal);348;;0,42;;827
+6045 Leinstrand;1515 Herøy (Møre og Romsdal);587;;0,51;;1 142
+6046 Moltustranda;1515 Herøy (Møre og Romsdal);438;;0,64;;689
+6049 Leikong;1515 Herøy (Møre og Romsdal);339;;0,38;;891
+6050 Dragsund i alt;;386;;0,61;;638
+;1515 Herøy (Møre og Romsdal);;379;;0,59;641
+;1516 Ulstein;;7;;0,01;481
+6051 Ulsteinsvik;1516 Ulstein;5 936;;3,92;;1 515
+6053 Sundgot;1516 Ulstein;884;;0,74;;1 199
+6061 Hjørungavåg;1517 Hareid;706;;0,78;;907
+6063 Brandal;1517 Hareid;340;;0,32;;1 071
+6064 Hareid;1517 Hareid;3 467;;2,62;;1 323
+6071 Volda;1577 Volda;6 891;;3,76;;1 832
+6072 Mork;1577 Volda;476;;0,52;;918
+6081 Ørsta;1520 Ørsta;7 252;;5,61;;1 293
+6082 Sætre;1520 Ørsta;396;;0,75;;526
+6083 Sætrebakkane;1520 Ørsta;236;;0,14;;1 643
+6091 Sjøholt;1507 Ålesund;1 547;;1,56;;990
+6111 Stranda;1525 Stranda;2 898;;2,42;;1 199
+6112 Hellesylt;1525 Stranda;255;;0,42;;610
+6121 Stordal;1578 Fjord;583;;0,76;;772
+6131 Ikornnes;1528 Sykkylven;846;;0,98;;861
+6132 Straumgjerde;1528 Sykkylven;442;;0,47;;935
+6133 Sykkylven;1528 Sykkylven;4 314;;3,39;;1 272
+6141 Skodje;1507 Ålesund;2 491;;1,72;;1 447
+6142 Valle;1507 Ålesund;677;;0,75;;898
+6143 Stetteremma;1507 Ålesund;416;;0,31;;1 321
+6165 Roald;1532 Giske;1 032;;0,74;;1 390
+6166 Leitebakk;1532 Giske;971;;0,76;;1 283
+6167 Giske;1532 Giske;806;;0,75;;1 073
+6168 Nordstrand;1532 Giske;4 262;;2,62;;1 625
+6171 Austnes;1507 Ålesund;377;;0,52;;724
+6172 Brattvåg;1507 Ålesund;2 450;;1,74;;1 405
+6173 Vatne;1507 Ålesund;2 457;;1,80;;1 367
+6174 Søvik;1507 Ålesund;986;;0,84;;1 176
+6181 Tomra;1535 Vestnes;1 086;;1,53;;708
+6182 Vestnes;1535 Vestnes;2 471;;2,05;;1 203
+6184 Fiksdal;1535 Vestnes;236;;0,30;;774
+6185 Tresfjord;1535 Vestnes;214;;0,48;;443
+6186 Vikebukt;1535 Vestnes;227;;0,48;;473
+6191 Isfjorden;1539 Rauma;1 343;;1,15;;1 172
+6192 Åndalsnes;1539 Rauma;2 388;;2,21;;1 081
+6193 Brønnsletten;1539 Rauma;231;;0,15;;1 530
+6194 Voll;1539 Rauma;502;;0,76;;656
+6195 Innfjorden;1539 Rauma;260;;0,28;;918
+6201 Eidsvåg;1506 Molde;953;;1,09;;872
+6202 Rausand;1506 Molde;258;;0,50;;519
+6211 Midsund;1506 Molde;584;;0,70;;837
+6221 Steinshamn;1507 Ålesund;424;;0,59;;718
+6231 Aukra;1547 Aukra;948;;1,17;;808
+6232 Hollingen i alt;;1 144;;0,73;;1 572
+;1547 Aukra;;719;;0,45;1 597
+;1579 Hustadvika;;425;;0,28;1 531
+6241 Elnesvågen;1579 Hustadvika;2 625;;2,19;;1 200
+6242 Bud;1579 Hustadvika;801;;0,79;;1 011
+6244 Tornes;1579 Hustadvika;547;;0,45;;1 206
+6247 Farstad;1579 Hustadvika;235;;0,27;;862
+6248 Malme;1579 Hustadvika;513;;0,40;;1 274
+6249 Sylte;1579 Hustadvika;327;;0,23;;1 428
+6251 Eide;1579 Hustadvika;1 433;;1,82;;787
+6261 Storbakken;1505 Kristiansund;642;;0,45;;1 420
+6264 Solsletta;1505 Kristiansund;749;;0,63;;1 196
+6266 Rensvik;1505 Kristiansund;2 484;;1,75;;1 420
+6271 Tingvollvågen;1560 Tingvoll;939;;1,37;;688
+6281 Grøa;1563 Sunndal;395;;0,31;;1 279
+6282 Hoelsand;1563 Sunndal;318;;0,20;;1 624
+6283 Sunndalsøra;1563 Sunndal;3 907;;3,51;;1 113
+6291 Skei/Surnadalsøra;1566 Surnadal;2 809;;3,30;;851
+6301 Rindal;5061 Rindal;704;;0,86;;821
+6311 Aure;1576 Aure;599;;0,54;;1 113
+6341 Fiskåbygd;1511 Vanylven;478;;0,70;;687
+6351 Kårvåg;1554 Averøy;324;;0,34;;961
+6352 Bremsnes;1554 Averøy;1 038;;1,44;;720
+6354 Sveggen;1554 Averøy;297;;0,29;;1 010
+6361 Batnfjordsøra;1557 Gjemnes;379;;0,38;;996
+6362 Torvikbukt;1557 Gjemnes;246;;0,37;;657
+6371 Liabø;5055 Heim;204;;0,33;;625
+6501 Trondheim;5001 Trondheim;194 860;;59,25;;3 289
+6502 Trolla;5001 Trondheim;559;;0,23;;2 422
+6503 Spongdal;5001 Trondheim;530;;0,28;;1 900
+6504 Ringvål;5001 Trondheim;437;;0,19;;2 327
+6505 Langørjan;5001 Trondheim;588;;0,35;;1 665
+6506 Bratsberg;5001 Trondheim;371;;0,27;;1 389
+6507 Nypan;5001 Trondheim;878;;0,56;;1 578
+6511 Kyrksæterøra;5055 Heim;2 484;;2,30;;1 079
+6521 Fillan;5056 Hitra;1 233;;1,16;;1 061
+6522 Hestvika;5056 Hitra;286;;0,36;;794
+6531 Hammarvika;5014 Frøya;539;;0,76;;709
+6532 Sistranda;5014 Frøya;1 162;;1,27;;917
+6541 Uthaug;5057 Ørland;352;;0,37;;940
+6542 Opphaug;5057 Ørland;387;;0,42;;913
+6543 Brekstad;5057 Ørland;2 381;;2,25;;1 056
+6544 Ottersbo;5057 Ørland;408;;0,29;;1 425
+6551 Selbekken;5059 Orkland;426;;0,49;;875
+6561 Råkvågen;5054 Indre Fosen;211;;0,37;;568
+6562 Rissa;5054 Indre Fosen;1 208;;0,87;;1 393
+6563 Stadsbygd;5054 Indre Fosen;294;;0,37;;788
+6565 Vangsåsen;5054 Indre Fosen;258;;0,18;;1 426
+6571 Botngård;5057 Ørland;1 339;;1,22;;1 094
+6572 Lysøysund;5057 Ørland;266;;0,35;;770
+6573 Karlestrand;5057 Ørland;271;;0,19;;1 426
+6581 Å I Åfjord;5058 Åfjord;1 302;;1,43;;913
+6591 Oppdal;5021 Oppdal;4 390;;3,70;;1 186
+6601 Berkåk;5022 Rennebu;959;;1,33;;719
+6611 Løkken;5059 Orkland;1 255;;1,64;;764
+6612 Storås;5059 Orkland;292;;0,41;;716
+6613 Meldal;5059 Orkland;628;;0,80;;786
+6621 Orkanger/Fannrem;5059 Orkland;8 890;;6,55;;1 358
+6622 Svorkmo;5059 Orkland;302;;0,25;;1 186
+6631 Røros;5025 Røros;3 836;;3,26;;1 178
+6641 Støren;5027 Midtre Gauldal;2 306;;2,41;;957
+6642 Soknedal;5027 Midtre Gauldal;282;;0,34;;826
+6651 Melhus;5028 Melhus;6 957;;3,00;;2 323
+6652 Kvål;5028 Melhus;437;;0,45;;976
+6653 Ler;5028 Melhus;684;;0,45;;1 507
+6654 Lundamo;5028 Melhus;1 114;;0,88;;1 264
+6655 Hovin;5028 Melhus;796;;0,50;;1 602
+6656 Korsvegen;5028 Melhus;594;;0,48;;1 241
+6657 Storsand;5028 Melhus;471;;0,39;;1 218
+6667 Eggkleiva;5029 Skaun;230;;0,18;;1 264
+6668 Buvika/Ilhaugen;5029 Skaun;3 157;;1,47;;2 146
+6669 Børsa;5029 Skaun;1 758;;1,12;;1 573
+6670 Viggja;5029 Skaun;356;;0,22;;1 632
+6671 Klæbu;5001 Trondheim;3 424;;1,44;;2 383
+6672 Tanem;5001 Trondheim;1 295;;0,46;;2 787
+6681 Malvik i alt;;7 150;;2,66;;2 684
+;5031 Malvik;;6 382;;2,45;2 608
+;5001 Trondheim;;768;;0,22;3 537
+6682 Muruvik;5031 Malvik;452;;0,37;;1 215
+6683 Hommelvik;5031 Malvik;5 800;;3,03;;1 911
+6691 Mebonden;5032 Selbu;1 038;;1,22;;852
+6692 Trøa;5032 Selbu;231;;0,23;;1 016
+6731 Renbygda;5026 Holtålen;569;;0,83;;687
+7001 Sparbu;5006 Steinkjer;606;;0,40;;1 512
+7002 Mære;5006 Steinkjer;434;;0,35;;1 243
+7003 Steinkjer;5006 Steinkjer;12 887;;8,17;;1 578
+7006 Velde;5006 Steinkjer;470;;0,42;;1 123
+7012 Bangsund;5007 Namsos - Nåavmesjenjaelmie;877;;0,67;;1 318
+7013 Namsos;5007 Namsos - Nåavmesjenjaelmie;8 307;;4,60;;1 804
+7014 Spillum;5007 Namsos - Nåavmesjenjaelmie;1 331;;1,70;;785
+7021 Midtbygda;5034 Meråker;1 023;;1,42;;719
+7031 Hegra;5035 Stjørdal;980;;0,66;;1 492
+7033 Skatval;5035 Stjørdal;959;;0,59;;1 626
+7034 Stjørdalshalsen;5035 Stjørdal;13 378;;7,48;;1 788
+7035 Hell;5035 Stjørdal;1 836;;1,23;;1 489
+7037 Prestmoen;5035 Stjørdal;372;;0,20;;1 883
+7041 Leksvik;5054 Indre Fosen;1 118;;1,45;;771
+7042 Vanvikan;5054 Indre Fosen;724;;0,58;;1 251
+7051 Levanger;5037 Levanger;10 384;;5,31;;1 957
+7052 Skogn;5037 Levanger;1 960;;1,15;;1 708
+7053 Åsen;5037 Levanger;650;;0,56;;1 154
+7057 Ekne;5037 Levanger;312;;0,23;;1 369
+7062 Trones;5038 Verdal;398;;0,20;;2 037
+7064 Lysthaugen;5038 Verdal;298;;0,23;;1 276
+7065 Vuku;5038 Verdal;223;;0,23;;955
+7066 Forbregd/Lein;5038 Verdal;851;;0,41;;2 054
+7068 Verdalsøra;5038 Verdal;8 535;;6,01;;1 420
+7071 Malm;5006 Steinkjer;1 122;;1,35;;832
+7072 Follafoss;5006 Steinkjer;378;;0,70;;543
+7081 Namdalseid;5007 Namsos - Nåavmesjenjaelmie;346;;0,29;;1 183
+7091 Hylla;5053 Inderøy;351;;0,29;;1 192
+7092 Røra Stasjon;5053 Inderøy;446;;0,48;;926
+7093 Straumen;5053 Inderøy;1 764;;1,42;;1 244
+7094 Gangstadhaugen;5053 Inderøy;225;;0,14;;1 623
+7095 Småland;5053 Inderøy;272;;0,20;;1 360
+7101 Snåsa;5041 Snåase - Snåsa;660;;0,84;;788
+7111 Sandvika;5042 Lierne;216;;0,39;;554
+7121 Røyrvik;5043 Raarvihke - Røyrvik;227;;0,38;;605
+7132 Namsskogan Sentrum;5044 Namsskogan;217;;0,29;;753
+7142 Grong;5045 Grong;1 065;;1,13;;943
+7151 Høylandet;5046 Høylandet;335;;0,45;;749
+7161 Skage;5047 Overhalla;820;;0,59;;1 401
+7162 Ranemsletta;5047 Overhalla;487;;0,47;;1 031
+7163 Svalia;5047 Overhalla;279;;0,24;;1 147
+7164 Skogmo;5047 Overhalla;280;;0,57;;489
+7171 Lauvsnes;5049 Flatanger;504;;0,58;;870
+7181 Rørvik;5060 Nærøysund;3 385;;2,06;;1 642
+7192 Ottersøy;5060 Nærøysund;233;;0,33;;699
+7194 Kolvereid;5060 Nærøysund;1 728;;1,28;;1 348
+7211 Mosvik;5053 Inderøy;303;;0,48;;637
+7501 Bodø;1804 Bodø;42 662;;14,88;;2 867
+7502 Løding;1804 Bodø;3 140;;1,32;;2 370
+7503 Løpsmarka;1804 Bodø;2 299;;0,67;;3 433
+7511 Bjerkvik;1806 Narvik;1 094;;1,34;;817
+7512 Narvik;1806 Narvik;14 035;;6,92;;2 027
+7513 Beisfjord;1806 Narvik;683;;0,69;;984
+7514 Håkvik;1806 Narvik;735;;0,57;;1 279
+7521 Terråk;1811 Bindal;520;;0,61;;851
+7531 Vik;1812 Sømna;330;;0,50;;660
+7532 Berg i alt;;616;;0,65;;954
+;1812 Sømna;;601;;0,62;968
+;1813 Brønnøy;;15;;0,02;608
+7542 Brønnøysund;1813 Brønnøy;4 995;;3,37;;1 484
+7543 Toft;1813 Brønnøy;219;;0,28;;793
+7544 Nordhus;1813 Brønnøy;342;;0,28;;1 216
+7551 Gladstad;1815 Vega;280;;0,49;;571
+7561 Silvalen;1818 Herøy (Nordland);855;;0,97;;879
+7572 Sandnessjøen;1820 Alstahaug;5 956;;4,25;;1 401
+7581 Mosjøen;1824 Vefsn;9 794;;6,51;;1 505
+7591 Trofors;1825 Grane;838;;0,79;;1 064
+7601 Hattfjelldal;1826 Aarborte - Hattfjelldal;504;;0,86;;586
+7611 Nesna;1828 Nesna;1 263;;1,07;;1 177
+7621 Hemnesberget;1832 Hemnes;1 252;;1,11;;1 125
+7623 Bjerka;1832 Hemnes;473;;0,70;;676
+7624 Korgen;1832 Hemnes;909;;0,96;;951
+7631 Mo I Rana;1833 Rana;18 864;;12,80;;1 474
+7632 Storforshei;1833 Rana;601;;0,76;;787
+7633 Hauknes;1833 Rana;2 124;;1,23;;1 730
+7634 Alternes;1833 Rana;220;;0,13;;1 747
+7641 Lovund;1834 Lurøy;515;;0,52;;986
+7651 Husøy;1835 Træna;393;;0,42;;944
+7661 Ørnes;1837 Meløy;1 687;;1,56;;1 081
+7662 Glomfjord;1837 Meløy;1 081;;1,19;;910
+7663 Reipå;1837 Meløy;266;;0,44;;601
+7664 Eidbukta;1837 Meløy;551;;0,76;;724
+7671 Inndyr;1838 Gildeskål;629;;0,76;;830
+7681 Rognan;1840 Saltdal;2 572;;2,54;;1 012
+7691 Sulitjelma;1841 Fauske - Fuossko;386;;0,53;;733
+7692 Fauske;1841 Fauske - Fuossko;6 262;;4,64;;1 349
+7693 Strømsnes;1841 Fauske - Fuossko;479;;0,61;;784
+7702 Straumen;1845 Sørfold;838;;1,08;;774
+7703 Leinesfjord;1848 Steigen;228;;0,27;;830
+7711 Oppeid;1875 Hábmer - Hamarøy;536;;0,68;;786
+7721 Kjøpsvik;1806 Narvik;803;;0,97;;831
+7722 Drag;1875 Hábmer - Hamarøy;318;;0,45;;701
+7731 Lødingen;1851 Lødingen;1 596;;1,48;;1 081
+7743 Ramsund;5412 Dielddanuorri - Tjeldsund;318;;0,60;;533
+7751 Liland;1853 Evenes - Evenášši;311;;0,30;;1 023
+7752 Bogen;1853 Evenes - Evenášši;384;;0,55;;696
+7761 Ballangen;1806 Narvik;827;;1,00;;824
+7781 Sørland;1857 Værøy;583;;0,99;;591
+7801 Stamsund;1860 Vestvågøy;1 103;;1,03;;1 068
+7802 Leknes;1860 Vestvågøy;3 722;;2,68;;1 389
+7803 Ballstad;1860 Vestvågøy;832;;0,77;;1 087
+7804 Gravdal;1860 Vestvågøy;1 676;;1,26;;1 333
+7812 Kabelvåg;1865 Vågan;2 234;;1,35;;1 655
+7813 Henningsvær;1865 Vågan;517;;0,30;;1 722
+7814 Svolvær;1865 Vågan;4 751;;2,35;;2 026
+7821 Stokmarknes;1866 Hadsel;3 451;;2,55;;1 353
+7822 Melbu;1866 Hadsel;2 245;;1,68;;1 339
+7831 Bø;1867 Bø;581;;0,79;;734
+7832 Straume;1867 Bø;326;;0,45;;726
+7842 Alsvåg;1868 Øksnes;294;;0,34;;873
+7843 Myre;1868 Øksnes;2 155;;1,80;;1 195
+7851 Sortland;1870 Sortland - Suortá;5 490;;3,72;;1 475
+7852 Sigerfjord;1870 Sortland - Suortá;815;;0,76;;1 070
+7853 Strand;1870 Sortland - Suortá;770;;0,47;;1 633
+7861 Andenes;1871 Andøy;2 487;;1,77;;1 407
+7862 Bleik;1871 Andøy;453;;0,36;;1 273
+7871 Reine;1874 Moskenes;304;;0,28;;1 087
+7872 Sørvågen;1874 Moskenes;399;;0,62;;641
+7891 Leland;1822 Leirfjord;708;;0,75;;950
+7901 Solfjellsjyen;1827 Dønna;266;;0,31;;872
+8003 Harstad;5402 Harstad - Hárstták;21 132;;11,47;;1 842
+8011 Tromsø;5401 Tromsø;41 434;;13,93;;2 975
+8015 Fagernes;5401 Tromsø;280;;0,26;;1 057
+8016 Sommarøy;5401 Tromsø;304;;0,41;;748
+8017 Ersfjordbotn;5401 Tromsø;490;;0,31;;1 584
+8018 Movik;5401 Tromsø;367;;0,21;;1 757
+8019 Kjosen;5401 Tromsø;370;;0,20;;1 891
+8021 Borkenes;5411 Kvæfjord;1 389;;1,11;;1 251
+8022 Vikvågen;5411 Kvæfjord;282;;0,32;;880
+8031 Evenskjær;5412 Dielddanuorri - Tjeldsund;808;;0,85;;946
+8032 Grov;5412 Dielddanuorri - Tjeldsund;402;;0,60;;665
+8051 Ibestad;5413 Ibestad;447;;0,69;;646
+8061 Setermoen;5416 Bardu;2 523;;2,89;;873
+8071 Sjøvegan;5417 Salangen;741;;0,82;;905
+8081 Moen;5418 Målselv;748;;1,00;;747
+8083 Skjold;5418 Målselv;251;;0,88;;286
+8084 Heggelia;5418 Målselv;967;;1,57;;617
+8085 Andselv;5418 Målselv;1 196;;1,17;;1 025
+8086 Andslimoen;5418 Målselv;540;;0,90;;599
+8091 Sørreisa;5419 Sørreisa;1 245;;1,38;;904
+8101 Gryllefjord;5421 Senja;333;;0,25;;1 358
+8111 Senjehopen;5421 Senja;268;;0,39;;695
+8121 Finnsnes;5421 Senja;4 771;;3,31;;1 439
+8122 Silsand;5421 Senja;1 608;;1,07;;1 502
+8123 Gibostad;5421 Senja;308;;0,41;;756
+8124 Husøy;5421 Senja;300;;0,12;;2 471
+8131 Storsteinnes;5422 Balsfjord;1 100;;1,19;;921
+8132 Nordkjosbotn;5422 Balsfjord;493;;0,72;;689
+8141 Hansnes;5423 Karlsøy;469;;0,50;;947
+8151 Furuflaten;5424 Lyngen;248;;0,42;;584
+8152 Lyngseidet;5424 Lyngen;736;;0,88;;840
+8161 Olderdalen;5426 Gáivuotna - Kåfjord - Kaivuono;292;;0,47;;624
+8162 Kåfjordbotn;5426 Gáivuotna - Kåfjord - Kaivuono;227;;0,37;;614
+8171 Skjervøy;5427 Skjervøy;2 426;;1,34;;1 810
+8181 Sørkjosen;5428 Nordreisa - Ráisa - Raisi;817;;0,78;;1 043
+8182 Storslett;5428 Nordreisa - Ráisa - Raisi;1 798;;1,70;;1 056
+8191 Burfjord;5429 Kvænangen;386;;0,57;;672
+8221 Tennevoll;5415 Loabák - Lavangen;279;;0,44;;639
+8251 Skibotn;5425 Storfjord - Omasvuotna - Omasvuono;538;;1,02;;527
+8261 Tromsdalen;5401 Tromsø;18 063;;5,08;;3 558
+8262 Kvaløysletta;5401 Tromsø;8 913;;3,20;;2 782
+8271 Vangsvik;5421 Senja;273;;0,40;;680
+8501 Hammerfest;5406 Hammerfest - Hámmerfeasta;7 912;;3,02;;2 624
+8511 Vardø;5404 Vardø;1 690;;1,19;;1 416
+8521 Vadsø;5405 Vadsø;4 615;;3,38;;1 365
+8522 Vestre Jakobselv;5405 Vadsø;486;;0,72;;675
+8531 Kautokeino;5430 Guovdageaidnu - Kautokeino;1 510;;2,57;;588
+8541 Talvik;5403 Alta;290;;0,37;;785
+8542 Alta;5403 Alta;15 784;;9,77;;1 616
+8543 Rafsbotn;5403 Alta;440;;0,36;;1 206
+8544 Tverrelvdalen;5403 Alta;460;;0,37;;1 249
+8545 Amtmannsnes;5403 Alta;438;;0,24;;1 797
+8551 Øksfjord;5432 Loppa;487;;0,33;;1 486
+8562 Breivikbotn;5433 Hasvik;306;;0,33;;929
+8563 Hasvik;5433 Hasvik;349;;0,52;;668
+8571 Rypefjord;5406 Hammerfest - Hámmerfeasta;1 775;;1,43;;1 243
+8581 Kvalsund;5406 Hammerfest - Hámmerfeasta;293;;0,31;;946
+8592 Havøysund;5434 Måsøy;947;;0,63;;1 507
+8602 Honningsvåg;5435 Nordkapp;2 237;;1,04;;2 158
+8603 Nordvågen;5435 Nordkapp;404;;0,20;;2 063
+8611 Lakselv;5436 Porsanger - Porsángu - Porsanki;2 245;;2,48;;904
+8621 Karasjok;5437 Kárášjohka - Karasjok;1 768;;2,24;;790
+8631 Kjøllefjord;5438 Lebesby;845;;0,44;;1 900
+8641 Mehamn;5439 Gamvik;692;;0,59;;1 175
+8642 Gamvik;5439 Gamvik;228;;0,24;;952
+8651 Berlevåg;5440 Berlevåg;867;;0,70;;1 246
+8661 Tana Bru;5441 Deatnu - Tana;725;;1,20;;602
+8671 Båtsfjord;5443 Båtsfjord;2 151;;1,37;;1 574
+8682 Hesseng;5444 Sør-Varanger;1 691;;1,16;;1 455
+8683 Bjørnevatn;5444 Sør-Varanger;2 553;;1,91;;1 335
+8684 Kirkenes;5444 Sør-Varanger;3 383;;2,27;;1 488
+8686 Skytterhusfjellet;5444 Sør-Varanger;287;;0,23;;1 259

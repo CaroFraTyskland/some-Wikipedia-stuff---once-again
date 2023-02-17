@@ -2,6 +2,7 @@ import csv
 import party
 from functools import total_ordering
 
+
 @total_ordering
 class Result:
     def __init__(self, name, percentage, votes, seats, percentage_change):
@@ -14,10 +15,10 @@ class Result:
             float(percentage_change.replace(",", ".")), 1)
 
     def __lt__(self, other):
-        return (self.votes < other.votes)
+        return self.votes < other.votes
 
     def __eq__(self, other):
-        return (self.votes == other.votes)
+        return self.votes == other.votes
 
     def print_result(self):
         style = ""
@@ -26,24 +27,25 @@ class Result:
             style = self.party_obj.color + " |"
             full_name = self.party_obj.full_name
 
-        change = 'data-sort-value="'+str(self.percentage_change)+'"|'
-        if (self.percentage_change < 0):
+        change = 'data-sort-value="' + str(self.percentage_change) + '"|'
+        if self.percentage_change < 0:
             change = change + "{{Gefallen}}"
-        elif (self.percentage_change == 0):
+        elif self.percentage_change == 0:
             change = change + "{{Unverändert}}"
         else:
             change = change + "{{Gestiegen}}"
 
         change = change + (str(abs(self.percentage_change))).replace(".", ",")
 
-
-
         print("|-")
         print('|' + style + ' ||align=left| ' + full_name + ' || ' + str(self.votes) + ' || ' +
-              (str(self.percentage)).replace(".", ",") + ' ||' + change + ' || ' + str(self.seats) + ' ||data-sort-value=""|')
-        #print ("[[" + self.name + "]]: "  " (" + str(self.seats) + ")")
+              (str(self.percentage)).replace(".", ",") + ' ||' + change + ' || ' + str(
+            self.seats) + ' ||data-sort-value=""|')
+        # print ("[[" + self.name + "]]: "  " (" + str(self.seats) + ")")
+
 
 results = []
+
 
 def __print_table_head(year):
     print('{|class="wikitable sortable" style="text-align:right"')
@@ -70,7 +72,8 @@ def __print_table_footer():
     print("|colspan=\"2\" align=\"left\"|'''Abgegebene Stimmen''' ||'''-''' || colspan=\"4\"|")
     print('|- class="hintergrundfarbe5"')
     print(
-        "|colspan=\"2\" align=\"left\"|'''Anzahl der Wahlberechtigten und [[Wahlbeteiligung]]''' ||'''-''' || '''-''' ||{{Unverändert}} || colspan=\"2\"|")
+        "|colspan=\"2\" align=\"left\"|'''Anzahl der Wahlberechtigten und [[Wahlbeteiligung]]''' ||'''-''' || '''-''' "
+        "||{{Unverändert}} || colspan=\"2\"|")
     print('|}')
 
 
@@ -94,6 +97,7 @@ def __print_table(path):
 
         for result in results:
             result.print_result()
+
 
 def print_election_results(year, path):
     __print_table_head(year)
