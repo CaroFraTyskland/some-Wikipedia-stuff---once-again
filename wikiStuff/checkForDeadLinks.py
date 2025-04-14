@@ -1,7 +1,7 @@
-import requestHandler
+from helper import requestHandler
 import requests
 import re
-import categoryMembers
+from categories import categoryMembers
 
 list_ok = ["https://statisticsnorway.shinyapps.io/pendling/", "https://www.ssb.no/statbank/sq/10064050"]
 

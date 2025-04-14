@@ -29,7 +29,7 @@ def __get_split_row_meta(row):
 
 
 def print_metadata_tettsted():
-    with open('tettsted2022.csv') as csvfile:
+    with open('tettsted/tettsted2022.csv') as csvfile:
         reader = csv.reader(csvfile, delimiter=';')
 
         for row in reader:
@@ -45,7 +45,7 @@ def print_metadata_tettsted():
                 print("|" + last_tettsted_nr + new_row[1] + "=" + new_row[2] + " <!--Kommune " + new_row[0] + "-->")
 
 def print_metadata_tettsted_area():
-    with open('tettsted2022.csv') as csvfile:
+    with open('tettsted/tettsted2022.csv') as csvfile:
         reader = csv.reader(csvfile, delimiter=';')
 
         for row in reader:
@@ -64,7 +64,7 @@ def print_metadata_tettsted_area():
 def get_tettsted_list_muni(muni_nr):
     list = []
 
-    with open('tettsted2022.csv') as csvfile:
+    with open('tettsted/tettsted2022.csv') as csvfile:
         reader = csv.reader(csvfile, delimiter=';')
 
         for row in reader:
@@ -85,7 +85,7 @@ def get_tettsted_by_tettsted_nr(tettsted_nr):
     list = []
     next = False
 
-    with open('tettsted2022.csv') as csvfile:
+    with open('tettsted/tettsted2022.csv') as csvfile:
         reader = csv.reader(csvfile, delimiter=';')
 
         for row in reader:
@@ -116,21 +116,21 @@ def write_tettsteder_muni(muni_nr, name):
         list = get_tettsted_list_muni(muni_nr)
 
         if len(list) == 0:
-            return "In der gesamten Gemeinde liegen keine [[Tettsted]]er, also keine Ansiedlungen, die für " \
-                   "statistische Zwecke als eine Ortschaft gewertet werden." \
+            return "In der gesamten Gemeinde gibt es keine [[Tettsted]]er, also keine Ansiedlungen, die für " \
+                   "statistische Zwecke als eine städtische Siedlung gewertet werden." \
                    "<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
 
         if len(list) == 1:
             row = list[0]
 
             text = row[0] + " ist der einzige sogenannte [[Tettsted]], also die einzige Ansiedlung, die für " \
-                            "statistische Zwecke als eine Ortschaft gewertet wird."
+                            "statistische Zwecke als eine städtische Siedlung gewertet wird."
 
             if row[1] == row[2]:
-                text += " Zum {{EWD|Ort NO|}} lebten dort {{EWZ|Ort NO|" + row[
+                text += " Zum {{EWD|Ort NO}} lebten dort {{EWZ|Ort NO|" + row[
                     1] + "}} Einwohner.<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
             else:
-                text += " Zum {{EWD|Ort NO|}} lebten in der Kommune " + name + " {{EWZ|Ort NO|" + row[
+                text += " Zum {{EWD|Ort NO}} lebten in der Kommune " + name + " {{EWZ|Ort NO|" + row[
                     1] + "}} der insgesamt {{EWZ|Ort NO|" + row[
                             2] + "}} Einwohner des Tettsteds.<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
 
@@ -141,7 +141,7 @@ def write_tettsteder_muni(muni_nr, name):
             r2 = list[1]
 
             text = "In der Gemeinde liegen zwei sogenannte [[Tettsted]]er, also zwei Ansiedlungen, die für " \
-                   "statistische Zwecke als eine Ortschaft gewertet werden. Diese sind "
+                   "statistische Zwecke als eine städtische Siedlung gewertet werden. Diese sind "
 
             if r1[1] == r1[2]:
                 text += r1[0] + " mit {{EWZ|Ort NO|" + r1[1] + "}} und "
@@ -155,10 +155,10 @@ def write_tettsteder_muni(muni_nr, name):
                 text += r2[0] + " mit {{EWZ|Ort NO|" + r2[1] + "}} der insgesamt {{EWZ|Ort NO|" + r2[
                     2] + "}} Einwohner des Tettsteds"
 
-            return text + " (Stand: {{EWD|Ort NO|}}).<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
+            return text + " (Stand: {{EWD|Ort NO}}).<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
 
         text = "In der Gemeinde liegen mehrere sogenannte [[Tettsted]]er, also mehrere Ansiedlungen, die für" \
-               " statistische Zwecke als eine Ortschaft gewertet werden. Diese sind "
+               " statistische Zwecke als eine städtische Siedlung gewertet werden. Diese sind "
 
         for i in range(len(list)):
             row = list[i]
@@ -172,11 +172,11 @@ def write_tettsteder_muni(muni_nr, name):
             else:
                 if row[1] == row[2]:
                     text += " und " + row[0] + " mit {{EWZ|Ort NO|" + row[1] +\
-                            "}} Einwohnern (Stand: {{EWD|Ort NO|}}).<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}" \
+                            "}} Einwohnern (Stand: {{EWD|Ort NO}}).<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}" \
                             "</ref>"
                 else:
                     text += " und " + row[0] + " mit {{EWZ|Ort NO|" + row[1] + "}} der insgesamt {{EWZ|Ort NO|" + row[
-                        2] + "}} Einwohner des Tettsteds (Stand: {{EWD|Ort NO|}})." \
+                        2] + "}} Einwohner des Tettsteds (Stand: {{EWD|Ort NO}})." \
                              "<ref>{{Metadaten Einwohnerzahl Ort NO||QUELLE}}</ref>"
 
         return text

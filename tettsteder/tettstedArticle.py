@@ -1,9 +1,9 @@
-import tettsted
-import municipality
-import reference
-import category
-import kartverketAPI
-import famousPeople
+from tettsted.tettsted import tettsted
+from kommune import municipality
+from references import reference
+from categories import category
+from api import kartverketAPI
+from people import famousPeople
 
 
 class TettstedArticle:

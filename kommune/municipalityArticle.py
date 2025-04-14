@@ -5,7 +5,7 @@ import famousPeople
 import population_over_time
 import muniArea
 import fylke
-import tettsted
+from tettsted import tettsted
 
 
 class MunicipalityArticle:
